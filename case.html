@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Case Detail | Loong Breath International Ltd.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+
+	<!-- ✅ SEO -->
+	<meta name="description" content="Explore Loong Breath International Ltd.'s XR, Digital Twin, Metaverse, and Autostereoscopic 3D projects. Based in Hong Kong.">
+
+	<meta name="keywords" content="LoongBreath, 龙气国际, Loong Breath International Ltd., Hong Kong, XR, Digital Twin, Metaverse, 3D, AI">
+
+	<!-- ✅ Open Graph -->
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Case Detail | Loong Breath International Ltd.">
+	<meta property="og:description" content="Discover XR, Metaverse and Digital Twin case videos from Loong Breath International Ltd.">
+	<meta property="og:image" content="https://www.loongbreath.com/images/share.jpg">
+	<meta property="og:url" content="https://www.loongbreath.com/case.html">
+
+	<!-- ✅ Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Loong Breath International Ltd. | Case Detail">
+	<meta name="twitter:description" content="Explore detailed XR and Digital Twin showcases by Loong Breath International Ltd.">
+	<meta name="twitter:image" content="https://www.loongbreath.com/images/share.jpg">
+
+	<!-- ✅ 多语言 hreflang -->
+	<link rel="alternate" href="https://www.loongbreath.com/en/case.html" hreflang="en">
+	<link rel="alternate" href="https://www.loongbreath.com/zh-hant/case.html" hreflang="zh-Hant">
+	<link rel="alternate" href="https://www.loongbreath.com/ja/case.html" hreflang="ja">
+	<link rel="alternate" href="https://www.loongbreath.com/ko/case.html" hreflang="ko">
+	<link rel="alternate" href="https://www.loongbreath.com/case.html" hreflang="x-default">
+
+	<!-- ✅ 样式与图标 -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet/less" type="text/css" href="./css/styles.less?v=5"/>
+	<link rel="stylesheet/less" type="text/css" href="css/animate.min.css"/>
+	<link rel="icon" sizes="192x192" href="./favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="./favicon.ico" type="image/x-icon">
+
+	<!-- ✅ JS -->
+	<script src="./lib/less.min.js"></script>
+	<script src="lib/jquery-2.0.0.min.js"></script>
+	<script src="lib/URI.min.js"></script>
+	<script>
+		var version = 1;
+		var params = URI().search(true);
+		var type = params['type'];
+		var index = params['index'];
+		var lang = localStorage.getItem('lang') || 'en';
+	</script>
+
+	<!-- ✅ Structured Data -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "VideoObject",
+	  "name": "Moon Metaverse | Loong Breath International Ltd.",
+	  "description": "An immersive virtual moon experience built by Loong Breath International Ltd.",
+	  "thumbnailUrl": "https://www.loongbreath.com/images/cases/metaverse/1.jpg",
+	  "uploadDate": "2025-01-01",
+	  "publisher": {
+		"@type": "Organization",
+		"name": "Loong Breath International Ltd.",
+		"logo": {
+		  "@type": "ImageObject",
+		  "url": "https://www.loongbreath.com/favicon.ico"
+		}
+	  },
+	  "contentUrl": "https://www.loongbreath.com/videos/【元宇宙类】-1-月球元宇宙.mp4"
+	}
+	</script>
+</head>
+
+<script src="https://cdn.counter.dev/script.js" data-id="3f67edbc-5578-4662-b983-38498e33c9c4" data-utcoffset="8"></script>
+<body>
+	<div id="app" class="container-fluid" v-bind:class="{show: isActive}">
+		<header>
+            <div class="brand">
+                <img class="logo" src="./images/logo.gif"/>
+                <a href="#" data-i18n="title">Loong Breath International Ltd.</a>
+
+				<select class="lang-select" v-model="lang" @change="langChange">
+					<option value="zh" v-bind:selected="lang == 'zh' ? 'selected' : ''">简体中文</option>
+					<option value="zh-Hant" v-bind:selected="lang == 'zh-Hant' ? 'selected' : ''">繁體中文</option>
+					<option value="en" v-bind:selected="lang == 'en' ? 'selected' : ''">English</option>
+					<option value="ja" v-bind:selected="lang == 'ja' ? 'selected' : ''">日本語</option>
+					<option value="ko" v-bind:selected="lang == 'ko' ? 'selected' : ''">한국어</option>
+				</select>
+            </div>
+
+            <div class="toggle" v-on:click="showNav"></div>
+            <div class="nav" v-bind:class="{show: isShowNav}" v-on:touchmove.prevent="" v-on:click="hideNav">
+                <div class="bars">
+                    <div class="close-btn"></div>
+                    <br/>
+                    <ul>
+                        <a href="index.html#intro"><li data-i18n="footer.link1">公司介绍</li></a>
+                        <a href="index.html#technology"><li data-i18n="footer.link2">技术介绍</li></a>
+                        <a href="index.html#awards"><li data-i18n="footer.link3">荣誉奖项</li></a>
+                        <a href="index.html#metaverse"><li data-i18n="footer.link4">元宇宙案例</li></a>
+                        <a href="index.html#digitaltwin"><li data-i18n="footer.link5">数字孪生案例</li></a>
+                        <a href="index.html#xr"><li data-i18n="footer.link6">XR案例</li></a>
+                        <a href="index.html#autostereoscopy"><li data-i18n="footer.link7">裸眼3D案例</li></a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- ✅ 案例详情主体 -->
+        <section v-if="cases[type]" class="case">
+            <h1>{{cases[type][index]['title'][lang]}}</h1>
+            <p>{{cases[type][index]['desc'][lang]}}</p>
+
+            <!-- ✅ 视频播放区域 -->
+<div class="video" style="text-align:center;">
+    <video
+        id="caseVideo"
+        width="80%"
+        height="auto"
+        :src="cases[type][index]['video'].src"
+        :title="cases[type][index]['video'].title"
+        :alt="cases[type][index]['video'].alt"
+        :poster="cases[type][index]['poster']"
+        controls
+        playsinline
+        preload="metadata"
+    ></video>
+</div>
+
+
+
+
+            <!-- ✅ 图片展示区 -->
+            <div
+                 class="picture"
+                 v-for="(picture, idx) in cases[type][index]['pictures']"
+                 :key="idx"
+                 :style="'background-image: url(' + picture.src + ');'"
+                 :title="picture.alt"
+                 :aria-label="picture.alt">
+            </div>
+        </section>
+	</div>
+
+<!-- ✅ JS 库 -->
+<script id="structured-data" type="application/ld+json"></script>
+<script src="lib/wow.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/utils.js"></script>
+<script src="lib/vue.min.js"></script>
+<script src="lib/TweenMax.min.js"></script>
+<script src="js/main.js?v=5"></script>
+</body>
+</html>

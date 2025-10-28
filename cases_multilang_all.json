@@ -1,0 +1,938 @@
+{
+  "metaverse": [
+    {
+      "poster": "images/cases/metaverse/1.jpg",
+      "title": {
+        "zh": "月球元宇宙",
+        "zh-Hant": "月球元宇宙",
+        "en": "Moon Metaverse",
+        "ja": "月のメタバース",
+        "ko": "달 메타버스"
+      },
+      "desc": {
+        "zh": "构建一个沉浸式虚拟月球，用户可在低重力环境中建立基地、开采矿藏、种植生态温室、进行科研实验，并与其他探月者实时交流，体验未来人类的太空文明生活。",
+        "zh-Hant": "構建一個沉浸式虛擬月球，用戶可在低重力環境中建立基地、開採礦藏、種植生態溫室、進行科研實驗，並與其他探月者實時交流，體驗未來人類的太空文明生活。",
+        "en": "An immersive virtual moon where users build bases, mine resources, grow plants, and explore future space life together.",
+        "ja": "低重力環境で基地を建設し、鉱物を採掘し、生態温室を育て、科学実験を行い、他の探査者と交流できる没入型の仮想月世界。未来の宇宙文明生活を体験できる。",
+        "ko": "낮은 중력 환경에서 기지를 건설하고 자원을 채굴하며 생태 온실을 가꾸고 과학 실험을 수행하며 다른 탐사자와 교류할 수 있는 몰입형 가상 달 세계로, 미래 우주 문명 생활을 체험할 수 있습니다."
+      },
+      "video": {
+        "src": "videos/【元宇宙类】-1-月球元宇宙.mp4",
+        "title": "Moon Metaverse - Immersive XR Experience",
+        "alt": "An immersive virtual moon where users build bases, mine resources, grow plants, and explore future s"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Moon Metaverse scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Moon Metaverse scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/metaverse/2.jpg",
+      "title": {
+        "zh": "博物馆元宇宙",
+        "zh-Hant": "博物館元宇宙",
+        "en": "Museum Metaverse",
+        "ja": "博物館メタバース",
+        "ko": "박물관 메타버스"
+      },
+      "desc": {
+        "zh": "1:1复刻线下博物馆，用户以数字人身份参观，透过CG特效让文物活化，展示其深层文化价值。",
+        "zh-Hant": "1:1復刻線下博物館，用戶以數字人身份參觀，透過CG特效讓文物活化，展示其深層文化價值。",
+        "en": "A 1:1 replica of a physical museum where users visit as digital avatars. CG effects revive artifacts and highlight their cultural significance.",
+        "ja": "実際の博物館を1:1で再現し、ユーザーはデジタルアバターとして見学。CG演出で文物を蘇らせ、その文化的価値を伝える。",
+        "ko": "실제 박물관을 1:1로 복원하여 사용자가 디지털 아바타로 관람하며 CG 효과로 유물을 생생히 재현합니다."
+      },
+      "video": {
+        "src": "videos/【元宇宙类】-2-博物馆元宇宙.mp4",
+        "title": "Museum Metaverse - Immersive XR Experience",
+        "alt": "A 1:1 replica of a physical museum where users visit as digital avatars. CG effects revive artifacts"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Museum Metaverse scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Museum Metaverse scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/metaverse/3.jpg",
+      "title": {
+        "zh": "海洋元宇宙",
+        "zh-Hant": "海洋元宇宙",
+        "en": "Ocean Metaverse",
+        "ja": "海洋メタバース",
+        "ko": "해양 메타버스"
+      },
+      "desc": {
+        "zh": "打造一个沉浸式虚拟海底世界，用户可化身潜水员深入珊瑚丛林与海沟秘境，探索海洋生物生态、完成科学任务、参与环保活动，并与全球玩家共同守护蓝色星球。",
+        "zh-Hant": "打造一個沉浸式虛擬海底世界，用戶可化身潛水員深入珊瑚叢林與海溝秘境，探索海洋生物生態、完成科學任務、參與環保活動，並與全球玩家共同守護藍色星球。",
+        "en": "An immersive virtual ocean where users dive through coral reefs and deep trenches, explore marine life, help protect the blue planet.",
+        "ja": "没入型の仮想海底世界で、ユーザーはダイバーとなり、サンゴ礁や深海を探検し、海洋生物を学び、環境保護に参加する。",
+        "ko": "몰입형 가상 해저 세계에서 사용자는 다이버가 되어 산호초와 심해를 탐험하고 해양 생물을 배우며 지구를 보호합니다."
+      },
+      "video": {
+        "src": "videos/【元宇宙类】-3-海洋元宇宙.mp4",
+        "title": "Ocean Metaverse - Immersive XR Experience",
+        "alt": "An immersive virtual ocean where users dive through coral reefs and deep trenches, explore marine li"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Ocean Metaverse scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Ocean Metaverse scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/metaverse/5.jpg",
+      "title": {
+        "zh": "昆虫元宇宙",
+        "zh-Hant": "昆蟲元宇宙",
+        "en": "Insect Metaverse",
+        "ja": "昆虫メタバース",
+        "ko": "곤충 메타버스"
+      },
+      "desc": {
+        "zh": "打造一个线上的微距昆虫世界，用户变成蚂蚁大小，在其中冒险完成人物，同时学习生物和物理知识。",
+        "zh-Hant": "打造一個線上的微距昆蟲世界，用戶變成螞蟻大小，在其中冒險完成人物，同時學習生物和物理知識。",
+        "en": "Create a macro insect world where users shrink to the size of ants, explore, complete missions, and learn biology and physics.",
+        "ja": "ユーザーがアリのサイズになって仮想の昆虫世界で冒険し、生物や物理を学ぶ。",
+        "ko": "사용자가 개미 크기로 축소되어 곤충 세계를 탐험하고 임무를 수행하며 생물과 물리를 배웁니다."
+      },
+      "video": {
+        "src": "videos/【元宇宙类】-5-昆虫元宇宙.mp4",
+        "title": "Insect Metaverse - Immersive XR Experience",
+        "alt": "Create a macro insect world where users shrink to the size of ants, explore, complete missions, and "
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Insect Metaverse scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Insect Metaverse scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/metaverse/6.jpg",
+      "title": {
+        "zh": "展会元宇宙",
+        "zh-Hant": "展會元宇宙",
+        "en": "Exhibition Metaverse",
+        "ja": "展示会メタバース",
+        "ko": "전시회 메타버스"
+      },
+      "desc": {
+        "zh": "构建沉浸式线上虚拟展会平台，参展企业可创建3D展台，展示产品、实时洽谈、举办发布会，让全球观众在元宇宙中互动参观。",
+        "zh-Hant": "構建沉浸式線上虛擬展會平台，參展企業可創建3D展台，展示產品、實時洽談、舉辦發布會，讓全球觀眾在元宇宙中互動參觀。",
+        "en": "An immersive virtual expo where brands create 3D booths, showcase products, and engage global visitors in the metaverse.",
+        "ja": "企業が3Dブースを設置し、製品展示や商談、発表会を行える没入型オンライン展示会プラットフォームを構築。世界中の観客がメタバース内で交流できる。",
+        "ko": "기업이 3D 부스를 만들어 제품을 전시하고, 실시간 상담과 발표회를 열 수 있는 몰입형 가상 전시 플랫폼을 구축하여 전 세계 관객이 메타버스에서 상호작용할 수 있습니다."
+      },
+      "video": {
+        "src": "videos/【元宇宙类】-6-线上虚拟展会.mp4",
+        "title": "Exhibition Metaverse - Immersive XR Experience",
+        "alt": "An immersive virtual expo where brands create 3D booths, showcase products, and engage global visito"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Exhibition Metaverse scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Exhibition Metaverse scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/metaverse/7.jpg",
+      "title": {
+        "zh": "寺庙元宇宙",
+        "zh-Hant": "寺廟元宇宙",
+        "en": "Temple Metaverse",
+        "ja": "寺院メタバース",
+        "ko": "사찰 메타버스"
+      },
+      "desc": {
+        "zh": "以真实寺庙为蓝本打造线上修行空间，用户可虚拟上香祈愿、听经打坐、参与法会，实现跨地域的数字修行体验。",
+        "zh-Hant": "以真實寺廟為藍本打造線上修行空間，用戶可虛擬上香祈願、聽經打坐、參與法會，實現跨地域的數字修行體驗。",
+        "en": "A virtual spiritual space allowing users to offer incense, meditate, attend rituals, and experience cross-regional digital cultivation.",
+        "ja": "実際の寺院をモデルにしたオンライン修行空間。ユーザーはお香を捧げ、読経や座禅、法会に参加できるデジタル修行体験を提供。",
+        "ko": "실제 사찰을 모델로 한 온라인 수행 공간으로, 사용자는 향을 피우고, 명상하고, 법회에 참여하며 지역의 제약 없이 디지털 수행을 체험할 수 있습니다."
+      },
+      "video": {
+        "src": "videos/【元宇宙类】-7-寺庙元宇宙.mp4",
+        "title": "Temple Metaverse - Immersive XR Experience",
+        "alt": "A virtual spiritual space allowing users to offer incense, meditate, attend rituals, and experience "
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Temple Metaverse scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Temple Metaverse scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/metaverse/4.jpg",
+      "title": {
+        "zh": "党建元宇宙",
+        "zh-Hant": "黨建元宇宙",
+        "en": "Party-Building Metaverse",
+        "ja": "党建メタバース",
+        "ko": "당건 메타버스"
+      },
+      "desc": {
+        "zh": "打造一个线上的党建馆，用户在其中互动、完成任务，还可以穿越到历史事件中，了解学习历史知识。",
+        "zh-Hant": "打造一個線上的黨建館，用戶在其中互動、完成任務，還可以穿越到歷史事件中，了解學習歷史知識。",
+        "en": "A online exhibition where users can interact, complete missions, and time-travel through historical events to learn from history.",
+        "ja": "オンライン党建館を構築し、ユーザーが交流し、任務を遂行し、歴史的な出来事を体験しながら学べる。",
+        "ko": "온라인 당건관을 구축하여 사용자가 상호작용하고 과제를 완료하며 역사 속 사건을 체험하고 배울 수 있습니다."
+      },
+      "video": {
+        "src": "videos/【元宇宙类】-4-线上虚拟党建馆.mp4",
+        "title": "Party-Building Metaverse - Immersive XR Experience",
+        "alt": "A online exhibition where users can interact, complete missions, and time-travel through historical "
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Party-Building Metaverse scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Party-Building Metaverse scene 2"
+        }
+      ]
+    }
+  ],
+  "digitaltwin": [
+    {
+      "poster": "images/cases/digitaltwin/1.jpg",
+      "title": {
+        "zh": "高速公路数字孪生",
+        "zh-Hant": "高速公路數字孿生",
+        "en": "Highway Digital Twin",
+        "ja": "高速道路デジタルツイン",
+        "ko": "고속도로 디지털 트윈"
+      },
+      "desc": {
+        "zh": "将高速公路建成1：1的3D数字孪生模型，将所有车辆车道、车速、车牌、车型等数据实时还原成3D车辆，具有过去、现状、未来的全时空分析能力。",
+        "zh-Hant": "將高速公路建成1：1的3D數字孿生模型，將所有車輛車道、車速、車牌、車型等數據實時還原成3D車輛，具有過去、現狀、未來的全時空分析能力。",
+        "en": "Build a 1:1 3D digital twin of highways, rendering lanes, speeds, plates, and vehicle data in real-time with full time-space analysis.",
+        "ja": "高速道路を1:1の3Dデジタルツインとして構築し、車線・速度・ナンバー・車種などをリアルタイムで再現。過去・現在・未来の時空分析が可能。",
+        "ko": "고속도로를 1:1 3D 디지털 트윈으로 구축하여 차선, 속도, 번호판, 차량 데이터를 실시간으로 재현하고 시간-공간 분석이 가능합니다."
+      },
+      "video": {
+        "src": "videos/【数字孪生】-1-高速公路实时数字孪生系统.mp4",
+        "title": "Highway Digital Twin - Immersive XR Experience",
+        "alt": "Build a 1:1 3D digital twin of highways, rendering lanes, speeds, plates, and vehicle data in real-t"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Highway Digital Twin scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Highway Digital Twin scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/digitaltwin/2.jpg",
+      "title": {
+        "zh": "水利数字孪生",
+        "zh-Hant": "水利數字孿生",
+        "en": "Water Conservancy Digital Twin",
+        "ja": "水利デジタルツイン",
+        "ko": "수리 디지털 트윈"
+      },
+      "desc": {
+        "zh": "构建水库、河流、泵站等设施的数字孪生模型，实现实时水位监测、流量预测与防汛调度，为智慧水利提供可视化决策支持。",
+        "zh-Hant": "構建水庫、河流、泵站等設施的數字孿生模型，實現實時水位監測、流量預測與防汛調度，為智慧水利提供可視化決策支持。",
+        "en": "Create digital twins of reservoirs, rivers, and pump stations to monitor water levels, predict flow, and manage flood control through visualized smart systems.",
+        "ja": "ダムや河川、ポンプ場などの施設をデジタルツイン化し、水位監視、流量予測、防災管理を実現する。",
+        "ko": "저수지, 강, 펌프장을 디지털 트윈으로 구축하여 수위 모니터링, 유량 예측 및 방재 조정을 시각화합니다."
+      },
+      "video": {
+        "src": "videos/【数字孪生】-2-水利数字孪生系统.mp4",
+        "title": "Water Conservancy Digital Twin - Immersive XR Experience",
+        "alt": "Create digital twins of reservoirs, rivers, and pump stations to monitor water levels, predict flow,"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Water Conservancy Digital Twin scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Water Conservancy Digital Twin scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/digitaltwin/3.jpg",
+      "title": {
+        "zh": "城市数字孪生",
+        "zh-Hant": "城市數字孿生",
+        "en": "City Digital Twin",
+        "ja": "都市デジタルツイン",
+        "ko": "도시 디지털 트윈"
+      },
+      "desc": {
+        "zh": "以城市全域三维地图为基础，融合交通、能源、环保、应急等数据，形成城市大脑，实现城市的动态管理与智能决策。",
+        "zh-Hant": "以城市全域三維地圖為基礎，融合交通、能源、環保、應急等數據，形成城市大腦，實現城市的動態管理與智能決策。",
+        "en": "Build a 3D map-based digital twin of the city integrating traffic, energy, environment, and emergency data to enable smart and dynamic urban management.",
+        "ja": "都市全体の3D地図を基に、交通・エネルギー・環境・防災データを統合し、スマートシティ管理を実現する。",
+        "ko": "도시 전역의 3D 지도를 기반으로 교통, 에너지, 환경, 재난 데이터를 통합하여 스마트 도시 관리를 실현합니다."
+      },
+      "video": {
+        "src": "videos/【数字孪生】-3-城市大脑数字孪生系统.mp4",
+        "title": "City Digital Twin - Immersive XR Experience",
+        "alt": "Build a 3D map-based digital twin of the city integrating traffic, energy, environment, and emergenc"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "City Digital Twin scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "City Digital Twin scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/digitaltwin/4.jpg",
+      "title": {
+        "zh": "航天数字孪生",
+        "zh-Hant": "航天數字孿生",
+        "en": "Aerospace Digital Twin",
+        "ja": "宇宙デジタルツイン",
+        "ko": "항공우주 디지털 트윈"
+      },
+      "desc": {
+        "zh": "建立卫星与地面控制系统的数字孪生模型，实时模拟轨道运行、姿态控制与任务调度，辅助航天任务的安全与精准执行。",
+        "zh-Hant": "建立衛星與地面控制系統的數字孿生模型，實時模擬軌道運行、姿態控制與任務調度，輔助航天任務的安全與精準執行。",
+        "en": "Develop digital twins of satellites and ground systems to simulate orbit, attitude, and mission control for safe and precise space operations.",
+        "ja": "衛星と地上制御システムのデジタルツインを構築し、軌道運行・姿勢制御・任務スケジューリングをリアルタイムでシミュレーションする。",
+        "ko": "위성과 지상 제어 시스템의 디지털 트윈을 구축하여 궤도, 자세 제어, 임무 일정을 실시간 시뮬레이션합니다."
+      },
+      "video": {
+        "src": "videos/【数字孪生】-4-航天卫星数字孪生系统.mp4",
+        "title": "Aerospace Digital Twin - Immersive XR Experience",
+        "alt": "Develop digital twins of satellites and ground systems to simulate orbit, attitude, and mission cont"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Aerospace Digital Twin scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Aerospace Digital Twin scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/digitaltwin/5.jpg",
+      "title": {
+        "zh": "人体数字孪生",
+        "zh-Hant": "人體數字孿生",
+        "en": "Human Body Digital Twin",
+        "ja": "人体デジタルツイン",
+        "ko": "인체 디지털 트윈"
+      },
+      "desc": {
+        "zh": "通过医学影像与AI算法生成个体3D人体模型，实时监测健康状态、模拟疾病演变，为精准医疗和康复训练提供参考。",
+        "zh-Hant": "通過醫學影像與AI算法生成個體3D人體模型，實時監測健康狀態、模擬疾病演變，為精準醫療和康復訓練提供參考。",
+        "en": "Generate 3D models of individuals through medical imaging and AI to monitor health, simulate disease progression, and support precision medicine.",
+        "ja": "医用画像とAIアルゴリズムを活用して個人の3D人体モデルを作成し、健康状態の監視や疾患進行のシミュレーションを行う。",
+        "ko": "의료 영상과 AI를 통해 개인의 3D 인체 모델을 생성하여 건강 상태를 모니터링하고 질병 진행을 시뮬레이션합니다."
+      },
+      "video": {
+        "src": "videos/【数字孪生】-5-人体数字孪生系统.mp4",
+        "title": "Human Body Digital Twin - Immersive XR Experience",
+        "alt": "Generate 3D models of individuals through medical imaging and AI to monitor health, simulate disease"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Human Body Digital Twin scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Human Body Digital Twin scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/digitaltwin/6.jpg",
+      "title": {
+        "zh": "医院数字孪生",
+        "zh-Hant": "醫院數字孿生",
+        "en": "Hospital Digital Twin",
+        "ja": "病院デジタルツイン",
+        "ko": "병원 디지털 트윈"
+      },
+      "desc": {
+        "zh": "将医院建筑、科室布局、设备与人流数据进行数字化映射，实现智能导诊、设备调度与应急演练的全流程可视化。",
+        "zh-Hant": "將醫院建築、科室布局、設備與人流數據進行數字化映射，實現智能導診、設備調度與應急演練的全流程可視化。",
+        "en": "Digitally replicate hospital infrastructure, department layouts, and equipment usage to enable smart navigation, scheduling, and emergency drills.",
+        "ja": "病院の建物、科室配置、設備、人流データをデジタル化し、スマート案内や機器管理、防災訓練を可視化する。",
+        "ko": "병원 건물, 부서 배치, 장비 및 인원 데이터를 디지털화하여 스마트 안내, 장비 관리 및 비상 훈련을 시각화합니다."
+      },
+      "video": {
+        "src": "videos/【数字孪生】-6-医院数字孪生系统.mp4",
+        "title": "Hospital Digital Twin - Immersive XR Experience",
+        "alt": "Digitally replicate hospital infrastructure, department layouts, and equipment usage to enable smart"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Hospital Digital Twin scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Hospital Digital Twin scene 2"
+        }
+      ]
+    }
+  ],
+  "xr": [
+    {
+      "poster": "images/cases/xr/1.jpg",
+      "title": {
+        "zh": "XR剧场·光年远征",
+        "zh-Hant": "XR劇場·光年遠征",
+        "en": "XR Theater · Lightyear Expedition",
+        "ja": "XRシアター・ライトイヤー遠征",
+        "ko": "XR극장 · 라이트이어 원정"
+      },
+      "desc": {
+        "zh": "以太空探索为主题的XR沉浸剧场，观众化身宇航员，穿越星际风暴、登陆异星基地，与虚拟角色并肩作战，体验跨星文明的光年冒险。",
+        "zh-Hant": "以太空探索為主題的XR沉浸劇場，觀眾化身宇航員，穿越星際風暴、登陸異星基地，與虛擬角色並肩作戰，體驗跨星文明的光年冒險。",
+        "en": "An XR immersive theater about space exploration where viewers become astronauts, cross interstellar, experience a lightyear-scale adventure.",
+        "ja": "宇宙探査をテーマにしたXR没入シアター。観客は宇宙飛行士となり、星間嵐を越え、異星に降り立ち、光年規模の冒険を体験する。",
+        "ko": "우주 탐사를 주제로 한 XR 몰입형 극장으로, 관객은 우주비행사가 되어 성간 폭풍을 통과하고 외계 행성에 착륙하며 광년 규모의 모험을 체험합니다."
+      },
+      "video": {
+        "src": "videos/【XR案例】-1-光年远征.mp4",
+        "title": "XR Theater · Lightyear Expedition - Immersive XR Experience",
+        "alt": "An XR immersive theater about space exploration where viewers become astronauts, cross interstellar,"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "XR Theater · Lightyear Expedition scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "XR Theater · Lightyear Expedition scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/xr/4.jpg",
+      "title": {
+        "zh": "XR数字人替身系统",
+        "zh-Hant": "XR數字人替身系統",
+        "en": "XR Digital Avatar System",
+        "ja": "XRデジタルアバターシステム",
+        "ko": "XR 디지털 아바타 시스템"
+      },
+      "desc": {
+        "zh": "通过实时动捕与AI驱动，让真人表演即时转化为虚拟角色，实现虚实同步演出、影视拍摄与虚拟偶像直播。",
+        "zh-Hant": "通過實時動捕與AI驅動，讓真人表演即時轉化為虛擬角色，實現虛實同步演出、影視拍攝與虛擬偶像直播。",
+        "en": "Using real-time motion capture and AI, live performances are instantly transformed into digital avatars for synchronized XR acting, filming, and virtual live shows.",
+        "ja": "リアルタイムモーションキャプチャとAIによって、実際の演技を即座にデジタルアバターに変換し、XR演出やバーチャルライブに活用する。",
+        "ko": "실시간 모션 캡처와 AI를 통해 실제 연기를 즉시 디지털 아바타로 변환하여 XR 공연, 영화 촬영 및 버추얼 라이브에 활용합니다."
+      },
+      "video": {
+        "src": "videos/【XR案例】-4-数字人替身系统.mp4",
+        "title": "XR Digital Avatar System - Immersive XR Experience",
+        "alt": "Using real-time motion capture and AI, live performances are instantly transformed into digital avat"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "XR Digital Avatar System scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "XR Digital Avatar System scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/xr/5.jpg",
+      "title": {
+        "zh": "XR大屏互动系统",
+        "zh-Hant": "XR大屏互動系統",
+        "en": "XR Interactive Screen System",
+        "ja": "XR大型インタラクティブシステム",
+        "ko": "XR 대형 인터랙티브 시스템"
+      },
+      "desc": {
+        "zh": "观众可通过体感动作、语音或手势与大屏中的虚拟内容互动，广泛应用于展厅、博物馆、商业空间与舞台演艺。",
+        "zh-Hant": "觀眾可通過體感動作、語音或手勢與大屏中的虛擬內容互動，廣泛應用於展廳、博物館、商業空間與舞台演藝。",
+        "en": "Audiences interact with on-screen virtual content using body movements, or gestures.ideal for exhibitions, museums, commercial venues.",
+        "ja": "観客は体の動き、音声、ジェスチャーでスクリーン上の仮想コンテンツと対話でき、展示会や劇場などに幅広く応用される。",
+        "ko": "관객은 제스처, 음성 또는 동작을 통해 대형 스크린의 가상 콘텐츠와 상호작용할 수 있으며, 전시장, 공연장 등에서 활용됩니다."
+      },
+      "video": {
+        "src": "videos/【XR案例】-5-XR大屏互动系统.mp4",
+        "title": "XR Interactive Screen System - Immersive XR Experience",
+        "alt": "Audiences interact with on-screen virtual content using body movements, or gestures.ideal for exhibi"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "XR Interactive Screen System scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "XR Interactive Screen System scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/xr/6.jpg",
+      "title": {
+        "zh": "XR直播系统",
+        "zh-Hant": "XR直播系統",
+        "en": "XR Live Streaming System",
+        "ja": "XRライブ配信システム",
+        "ko": "XR 실시간 방송 시스템"
+      },
+      "desc": {
+        "zh": "通过AI对真人实时抠像，再放入一个3D拟环境中，真人可以和虚拟对象进行互动。将观众带入一个真实又奇幻的世界，广泛适用于直播领域。",
+        "zh-Hant": "通過AI對真人實時摳像，再放入一個3D擬環境中，真人可以和虛擬對象進行互動。將觀眾帶入一個真實又奇幻的世界，廣泛適用於直播領域。",
+        "en": "AI segments real people in real time and places them in a 3D virtual environment where they interact with digital elements.",
+        "ja": "AIでリアルタイムに人物を切り抜き、3D仮想環境に配置し、バーチャルオブジェクトと対話可能。リアルで幻想的な体験を実現し、ライブ配信に最適。",
+        "ko": "AI가 실시간으로 실제 인물을 추출하여 3D 가상 환경에 배치하고 가상 객체와 상호작용하게 합니다. 몰입감 있고 환상적인 체험을 제공하여 라이브 방송에 적합합니다."
+      },
+      "video": {
+        "src": "videos/【XR案例】-6-XR直播系统.mp4",
+        "title": "XR Live Streaming System - Immersive XR Experience",
+        "alt": "AI segments real people in real time and places them in a 3D virtual environment where they interact"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "XR Live Streaming System scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "XR Live Streaming System scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/xr/7.jpg",
+      "title": {
+        "zh": "全息激战系统",
+        "zh-Hant": "全息激戰系統",
+        "en": "Holographic Battle System",
+        "ja": "ホログラフィックバトルシステム",
+        "ko": "홀로그램 전투 시스템"
+      },
+      "desc": {
+        "zh": "基于全息投影与实时追踪技术，用户可与虚拟角色展开即时战斗或竞技体验，打造沉浸式的未来娱乐空间。",
+        "zh-Hant": "基於全息投影與實時追蹤技術，用戶可與虛擬角色展開即時戰鬥或競技體驗，打造沉浸式的未來娛樂空間。",
+        "en": "Using XR glasses and real-time tracking, users engage in live combat or competitive experiences with virtual characters in immersive environments.",
+        "ja": "ホログラム投影とリアルタイムトラッキング技術を用いて、仮想キャラクターとリアルタイムで戦闘や競技を体験できる。",
+        "ko": "홀로그램 투영과 실시간 추적 기술을 통해 사용자는 가상 캐릭터와 실시간 전투를 벌이거나 경쟁 체험을 할 수 있습니다."
+      },
+      "video": {
+        "src": "videos/【XR案例】-7-全息激战系统.mp4",
+        "title": "Holographic Battle System - Immersive XR Experience",
+        "alt": "Using XR glasses and real-time tracking, users engage in live combat or competitive experiences with"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Holographic Battle System scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Holographic Battle System scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/xr/2.jpg",
+      "title": {
+        "zh": "XR剧场·量子宇宙",
+        "zh-Hant": "XR劇場·量子宇宙",
+        "en": "XR· Quantum Universe",
+        "ja": "XRシアター・量子宇宙",
+        "ko": "XR극장 · 양자 우주"
+      },
+      "desc": {
+        "zh": "以量子物理为主题的XR沉浸剧场，观众可穿梭于微观世界，体验粒子运动、时空折叠与意识投射的交互之旅。",
+        "zh-Hant": "以量子物理為主題的XR沉浸劇場，觀眾可穿梭於微觀世界，體驗粒子運動、時空摺疊與意識投射的互動之旅。",
+        "en": "An XR immersive theater themed around quantum physics, where viewers explore the microcosm, spacetime folding, and consciousness projection.",
+        "ja": "量子物理をテーマにしたXR没入型シアター。観客は微小世界を旅し、粒子運動や時空の折り畳み、意識の投射を体験する。",
+        "ko": "양자 물리를 주제로 한 XR 몰입형 극장으로, 관객은 미시 세계를 여행하며 입자 운동, 시공간 접힘, 의식 투영을 체험합니다."
+      },
+      "video": {
+        "src": "videos/【XR案例】-2-量子宇宙.mp4",
+        "title": "XR· Quantum Universe - Immersive XR Experience",
+        "alt": "An XR immersive theater themed around quantum physics, where viewers explore the microcosm, spacetim"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "XR· Quantum Universe scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "XR· Quantum Universe scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/xr/3.jpg",
+      "title": {
+        "zh": "XR剧场·烽火征途",
+        "zh-Hant": "XR劇場·烽火征途",
+        "en": "XR Theater · Flames of War",
+        "ja": "XRシアター・戦火の旅路",
+        "ko": "XR극장 · 전쟁의 여정"
+      },
+      "desc": {
+        "zh": "以红色历史为题材的XR沉浸剧场，观众可置身战场，与角色并肩作战，重温峥嵘岁月的革命历程。",
+        "zh-Hant": "以紅色歷史為題材的XR沉浸劇場，觀眾可置身戰場，與角色並肩作戰，重溫崢嶸歲月的革命歷程。",
+        "en": "An XR immersive theater based on revolutionary history, allowing viewers to enter the battlefield and relive the heroic journey alongside virtual soldiers.",
+        "ja": "革命史を題材としたXR没入型シアター。観客は戦場に立ち、登場人物と共に戦い、歴史の瞬間を追体験する。",
+        "ko": "혁명 역사를 주제로 한 XR 몰입형 극장으로, 관객은 전장에서 캐릭터와 함께 싸우며 혁명 시절을 다시 체험할 수 있습니다."
+      },
+      "video": {
+        "src": "videos/【XR案例】-3-烽火征途.mp4",
+        "title": "XR Theater · Flames of War - Immersive XR Experience",
+        "alt": "An XR immersive theater based on revolutionary history, allowing viewers to enter the battlefield an"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "XR Theater · Flames of War scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "XR Theater · Flames of War scene 2"
+        }
+      ]
+    }
+  ],
+  "autostereoscopy": [
+    {
+      "poster": "images/cases/autostereoscopy/7.jpg",
+      "title": {
+        "zh": "美人鱼·裸眼3D",
+        "zh-Hant": "美人魚·裸眼3D",
+        "en": "Mermaid ",
+        "ja": "人魚・裸眼3D",
+        "ko": "인어 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "以深海为舞台的裸眼3D影像，展现人鱼在珊瑚与海豚间翩然起舞的奇幻景象，打造极具梦幻感的视觉盛宴。",
+        "zh-Hant": "以深海為舞台的裸眼3D影像，展現人魚在珊瑚與海豚間翩然起舞的奇幻景象，打造極具夢幻感的視覺盛宴。",
+        "en": "A Autostereoscopy 3D display set in the deep sea, showing a mermaid dancing gracefully among corals and dolphins in a dreamlike visual experience.",
+        "ja": "深海を舞台にした裸眼3D映像で、人魚がサンゴやイルカの間を舞う幻想的な光景を描く。",
+        "ko": "심해를 무대로 인어가 산호와 돌고래 사이를 춤추며 헤엄치는 환상적인 3D 시각 경험을 제공합니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-7-美人鱼.mp4",
+        "title": "Mermaid  - Immersive XR Experience",
+        "alt": "A Autostereoscopy 3D display set in the deep sea, showing a mermaid dancing gracefully among corals "
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Mermaid  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Mermaid  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/8.jpg",
+      "title": {
+        "zh": "金龙·裸眼3D",
+        "zh-Hant": "金龍·裸眼3D",
+        "en": "Golden Dragon ",
+        "ja": "金龍・裸眼3D",
+        "ko": "황금 용 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "巨龙盘旋腾空的裸眼3D动画，寓意祥瑞与繁荣，在春节期间于城市大屏播放，带来震撼的视觉冲击。",
+        "zh-Hant": "巨龍盤旋騰空的裸眼3D動畫，寓意祥瑞與繁榮，在春節期間於城市大屏播放，帶來震撼的視覺衝擊。",
+        "en": "A soaring dragon in a Autostereoscopy 3D animation symbolizing fortune and prosperity, displayed on city screens during the Spring Festival.",
+        "ja": "春節の期間に街頭スクリーンで上映された裸眼3Dアニメーションで、空を舞う龍が吉祥と繁栄を象徴する。",
+        "ko": "도시 대형 스크린에 상영된 황금 용의 3D 애니메이션으로, 행운과 번영을 상징하며 설 연휴에 상영됩니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-8-金龙贺岁.mp4",
+        "title": "Golden Dragon  - Immersive XR Experience",
+        "alt": "A soaring dragon in a Autostereoscopy 3D animation symbolizing fortune and prosperity, displayed on "
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Golden Dragon  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Golden Dragon  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/2.jpg",
+      "title": {
+        "zh": "霸王龙·裸眼3D",
+        "zh-Hant": "霸王龍·裸眼3D",
+        "en": "Tyrannosaurus Rex ",
+        "ja": "ティラノサウルス・裸眼3D",
+        "ko": "티라노사우루스 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "霸王龙裸眼3D动画，在香港旺角播放，展现史前巨兽冲出屏幕的震撼视觉效果，吸引大量观众驻足观看。",
+        "zh-Hant": "霸王龍裸眼3D動畫，在香港旺角播放，展現史前巨獸衝出屏幕的震撼視覺效果，吸引大量觀眾駐足觀看。",
+        "en": "A Tyrannosaurus Rex shown in Mong Kok, Hong Kong, featuring a stunning prehistoric beast bursting out of the screen that captivated audiences.",
+        "ja": "香港・旺角で上映されたティラノサウルスの裸眼3Dアニメーション。スクリーンから飛び出す迫力ある映像で観客を魅了した。",
+        "ko": "홍콩 몽콕에서 상영된 티라노사우루스 3D 애니메이션으로, 화면 밖으로 튀어나오는 압도적인 비주얼로 관객을 사로잡았습니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-2-霸王龙.mp4",
+        "title": "Tyrannosaurus Rex  - Immersive XR Experience",
+        "alt": "A Tyrannosaurus Rex shown in Mong Kok, Hong Kong, featuring a stunning prehistoric beast bursting ou"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Tyrannosaurus Rex  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Tyrannosaurus Rex  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/4.jpg",
+      "title": {
+        "zh": "金刚·裸眼3D",
+        "zh-Hant": "金剛·裸眼3D",
+        "en": "King Kong ",
+        "ja": "キングコング・裸眼3D",
+        "ko": "킹콩 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "金刚裸眼3D动画在香港旺角巨型屏幕上播放，巨猿破墙而出、咆哮震天，呈现震撼的立体冲击力与影院级沉浸感，吸引无数行人驻足观赏。",
+        "zh-Hant": "金剛裸眼3D動畫在香港旺角巨型屏幕上播放，巨猿破牆而出、咆哮震天，呈現震撼的立體衝擊力與影院級沉浸感，吸引無數行人駐足觀賞。",
+        "en": "A King Kong animation on a giant Mong Kok screen shows the ape breaking through the wall with stunning cinematic impact.",
+        "ja": "香港・旺角の巨大スクリーンで上映されたキングコングの裸眼3Dアニメーション。巨猿が壁を突き破り、轟音とともに現れる迫力の映像が観客を魅了した。",
+        "ko": "홍콩 몽콕의 대형 스크린에서 상영된 킹콩 3D 애니메이션으로, 거대한 유인원이 벽을 부수며 등장하고 굉음과 함께 압도적인 입체감을 선사하여 많은 관객의 시선을 사로잡았습니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-4-金刚.mp4",
+        "title": "King Kong  - Immersive XR Experience",
+        "alt": "A King Kong animation on a giant Mong Kok screen shows the ape breaking through the wall with stunni"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "King Kong  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "King Kong  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/6.jpg",
+      "title": {
+        "zh": "斗鱼·裸眼3D",
+        "zh-Hant": "鬥魚·裸眼3D",
+        "en": "Betta Fish ",
+        "ja": "闘魚・裸眼3D",
+        "ko": "투어 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "以两条斗鱼为主角的裸眼3D动画，通过光影流动和水波透视，展现力量与优雅并存的动感画面。",
+        "zh-Hant": "以兩條鬥魚為主角的裸眼3D動畫，通過光影流動和水波透視，展現力量與優雅並存的動感畫面。",
+        "en": "A 3D animation featuring two betta fish, combining dynamic lighting and water ripple effects to convey both power and grace.",
+        "ja": "2匹の闘魚を主役にした裸眼3Dアニメーション。光と波の動きで力強さと優雅さを表現。",
+        "ko": "두 마리의 베타 물고기를 주인공으로 한 3D 애니메이션으로, 빛과 물결 효과로 강렬함과 우아함을 표현합니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-6-斗鱼空间.mp4",
+        "title": "Betta Fish  - Immersive XR Experience",
+        "alt": "A 3D animation featuring two betta fish, combining dynamic lighting and water ripple effects to conv"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Betta Fish  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Betta Fish  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/1.jpg",
+      "title": {
+        "zh": "帝王龙·裸眼3D",
+        "zh-Hant": "帝王龍·裸眼3D",
+        "en": "Emperor Dragon ",
+        "ja": "帝王龍・裸眼3D",
+        "ko": "황제 용 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "帝王龙裸眼3D动画在香港旺角播放，巨龙从屏幕中腾空而出，龙鳞闪耀光芒，展现震撼的立体视觉与强烈的节日氛围。",
+        "zh-Hant": "帝王龍裸眼3D動畫在香港旺角播放，巨龍從屏幕中騰空而出，龍鱗閃耀光芒，展現震撼的立體視覺與強烈的節日氛圍。",
+        "en": "Displayed in Mong Kok, Hong Kong,the mighty dragon bursts from the screen in dazzling light, delivering a stunning 3D spectacl.",
+        "ja": "香港・旺角で上映された帝王龍の裸眼3Dアニメーション。巨大な龍がスクリーンから飛び出し、煌めく鱗が光を放ち、圧倒的な立体感と祝祭の雰囲気を演出する。",
+        "ko": "홍콩 몽콕에서 상영된 황제 용 3D 애니메이션으로, 거대한 용이 화면을 뚫고 날아오르며 빛나는 비늘로 강렬한 입체감과 축제 분위기를 연출합니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-1-帝王龙.mp4",
+        "title": "Emperor Dragon  - Immersive XR Experience",
+        "alt": "Displayed in Mong Kok, Hong Kong,the mighty dragon bursts from the screen in dazzling light, deliver"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Emperor Dragon  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Emperor Dragon  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/3.jpg",
+      "title": {
+        "zh": "宇宙飞船·裸眼3D",
+        "zh-Hant": "宇宙飛船·裸眼3D",
+        "en": "Spaceship ",
+        "ja": "宇宙船・裸眼3D",
+        "ko": "우주선 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "展示宇宙飞船冲出屏幕的立体视觉效果，观众仿佛身临太空发射现场，感受科幻震撼。",
+        "zh-Hant": "展示宇宙飛船衝出屏幕的立體視覺效果，觀眾彷彿身臨太空發射現場，感受科幻震撼。",
+        "en": "A 3D display showing a spaceship bursting out of the screen, giving viewers the thrill of a live space launch.",
+        "ja": "宇宙船がスクリーンから飛び出すような立体映像で、観客に宇宙発射の臨場感を与える。",
+        "ko": "우주선이 화면 밖으로 튀어나오는 듯한 입체 효과로 관객에게 우주 발사의 현장감을 전달합니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-3-宇宙飞船.mp4",
+        "title": "Spaceship  - Immersive XR Experience",
+        "alt": "A 3D display showing a spaceship bursting out of the screen, giving viewers the thrill of a live spa"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Spaceship  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Spaceship  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/9.jpg",
+      "title": {
+        "zh": "蜂鸟·裸眼3D",
+        "zh-Hant": "蜂鳥·裸眼3D",
+        "en": "Hummingbird ",
+        "ja": "ハチドリ・裸眼3D",
+        "ko": "벌새 · 안경 없는 3D"
+      },
+      "desc": {
+        "zh": "以花开与蜂鸟为主题的裸眼3D影像，细节精致，展现自然生命的灵动与和谐。",
+        "zh-Hant": "以花開與蜂鳥為主題的裸眼3D影像，細節精緻，展現自然生命的靈動與和諧。",
+        "en": "A vivid Autostereoscopy 3D scene of blooming flowers and hummingbirds, capturing the beauty and harmony of nature.",
+        "ja": "花とハチドリをテーマにした裸眼3D映像で、自然の生命力と調和を繊細に描く。",
+        "ko": "꽃과 벌새를 주제로 한 3D 영상으로, 자연의 생명력과 조화를 섬세하게 표현합니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-9-蜂鸟花开.mp4",
+        "title": "Hummingbird  - Immersive XR Experience",
+        "alt": "A vivid Autostereoscopy 3D scene of blooming flowers and hummingbirds, capturing the beauty and harm"
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Hummingbird  scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Hummingbird  scene 2"
+        }
+      ]
+    },
+    {
+      "poster": "images/cases/autostereoscopy/5.jpg",
+      "title": {
+        "zh": "海豚·光场裸眼3D",
+        "zh-Hant": "海豚·光場裸眼3D",
+        "en": "Dolphin · Light-Field 3D",
+        "ja": "イルカ・ライトフィールド3D",
+        "ko": "돌고래 · 라이트필드 3D"
+      },
+      "desc": {
+        "zh": "采用光场技术重建的裸眼3D影像，海豚跃出水面的瞬间仿佛触手可及，展现未来显示科技的魅力。",
+        "zh-Hant": "採用光場技術重建的裸眼3D影像，海豚躍出水面的瞬間彷彿觸手可及，展現未來顯示科技的魅力。",
+        "en": "A light-field based Autostereoscopy 3D display where dolphins leap out of the water, showcasing the potential of next-generation display technology.",
+        "ja": "光場技術を用いた裸眼3D映像で、イルカが水面から飛び出す瞬間を再現し、次世代ディスプレイの魅力を示す。",
+        "ko": "라이트필드 기술로 재현된 3D 영상으로, 돌고래가 물 위로 뛰어오르는 순간을 생생하게 표현하여 차세대 디스플레이 기술의 매력을 보여줍니다."
+      },
+      "video": {
+        "src": "videos/【裸眼3D】-5-光场裸眼3D-海豚.mp4",
+        "title": "Dolphin · Light-Field 3D - Immersive XR Experience",
+        "alt": "A light-field based Autostereoscopy 3D display where dolphins leap out of the water, showcasing the "
+      },
+      "pictures": [
+        {
+          "src": "images/cases/metaverse/1/1.jpg",
+          "alt": "Dolphin · Light-Field 3D scene 1"
+        },
+        {
+          "src": "images/cases/metaverse/1/2.jpg",
+          "alt": "Dolphin · Light-Field 3D scene 2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loong Breath International Ltd. | Official Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+
+	<!-- ✅ SEO 基础 -->
+	<meta name="description" content="Loong Breath International Ltd.（龙气国际有限公司），总部位于香港尖沙咀東部文華中心，致力于3D数字孪生、XR、AI视觉与元宇宙体验开发，融合技术与艺术，服务全球文化与科技项目。">
+	<meta name="keywords" content="LoongBreath, 龙气国际, Loong Breath International Ltd., Hong Kong, XR, Metaverse, Digital Twin, AI, 3D, WebXR, Immersive Experience">
+
+	<!-- ✅ Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Loong Breath International Ltd. | Official Website">
+	<meta property="og:description" content="Immersive XR, AI, and Digital Twin experiences from Hong Kong — Loong Breath International Ltd.">
+	<meta property="og:image" content="https://www.loongbreath.com/images/share.jpg">
+	<meta property="og:url" content="https://www.loongbreath.com/">
+
+	<!-- ✅ Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Loong Breath International Ltd.">
+	<meta name="twitter:description" content="Creating immersive XR, AI and metaverse systems from Hong Kong.">
+	<meta name="twitter:image" content="https://www.loongbreath.com/images/share.jpg">
+
+	<!-- ✅ 多语言 hreflang -->
+	<link rel="alternate" href="https://www.loongbreath.com/en/" hreflang="en">
+	<link rel="alternate" href="https://www.loongbreath.com/zh-hant/" hreflang="zh-Hant">
+	<link rel="alternate" href="https://www.loongbreath.com/ja/" hreflang="ja">
+	<link rel="alternate" href="https://www.loongbreath.com/ko/" hreflang="ko">
+	<link rel="alternate" href="https://www.loongbreath.com/" hreflang="x-default">
+
+	<!-- ✅ 样式与图标 -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet/less" type="text/css" href="./css/styles.less?v=5"/>
+	<link rel="stylesheet/less" type="text/css" href="css/animate.min.css"/>
+	<link rel="icon" sizes="192x192" href="./favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="./favicon.ico" type="image/x-icon">
+
+	<!-- ✅ JS 库 -->
+	<script src="./lib/less.min.js"></script>
+	<script src="lib/jquery-2.0.0.min.js"></script>
+	<script src="lib/URI.min.js"></script>
+	<script>
+		var version = 1;
+		var params = URI().search(true);
+		var lang = localStorage.getItem('lang') || 'en';
+	</script>
+
+	<!-- ✅ Structured Data -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Organization",
+	  "name": "Loong Breath International Ltd.",
+	  "alternateName": "LoongBreath",
+	  "url": "https://www.loongbreath.com/",
+	  "logo": "https://www.loongbreath.com/favicon.ico",
+	  "foundingDate": "2010",
+	  "founders": [
+		{
+		  "@type": "Person",
+		  "name": "Lloyd Huang",
+		  "jobTitle": "Founder / XR & AI Vision Director"
+		}
+	  ],
+	  "parentOrganization": {
+		"@type": "Organization",
+		"name": "LoongBreath Group",
+		"url": "https://www.loongbreath.com/"
+	  },
+	  "sameAs": [
+		"https://www.loongbreath.com/",
+		"https://www.gochina3d.com/",
+		"https://www.breathingjewels.com/",
+		"https://www.youtube.com/@LoongBreath",
+		"https://www.linkedin.com/company/loongbreath",
+		"https://www.instagram.com/loongbreath"
+	  ],
+	  "description": "Loong Breath International Ltd. is a Hong Kong-based XR and 3D innovation company creating immersive digital twin and metaverse experiences worldwide."
+	}
+	</script>
+</head>
+
+
+<script src="https://cdn.counter.dev/script.js" data-id="3f67edbc-5578-4662-b983-38498e33c9c4" data-utcoffset="8"></script>
+<body>
+	<div id="app" class="container-fluid" v-bind:class="{show: isActive}">
+		<header>
+            <div class="brand">
+                <!--<img class="logo" src="./images/logo.gif?v=2"/>-->
+				<img id="logoSeq" class="logo" src="./images/logo_seq/龙气国际logo-00.png" alt="LoongBreath Logo">
+
+                <a href="#" data-i18n="title">Loong Breath International Ltd.</a>
+
+				<select class="lang-select" v-model="lang" @change="langChange">
+					<option value="zh" v-bind:selected="lang == 'zh' ? 'selected' : ''">简体中文</option>
+					<option value="zh-Hant" v-bind:selected="lang == 'zh-Hant' ? 'selected' : ''">繁體中文</option>
+					<option value="en" v-bind:selected="lang == 'en' ? 'selected' : ''">English</option>
+					<option value="ja" v-bind:selected="lang == 'ja' ? 'selected' : ''">日本語</option>
+					<option value="ko" v-bind:selected="lang == 'ko' ? 'selected' : ''">한국어</option>
+				</select>
+            </div>
+            <!--
+            <svg class="toggle" v-on:click="showNav" preserveAspectRatio="xMidYMid meet" data-bbox="42 25 116.667 150" viewBox="42 25 116.667 150" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" aria-label="">
+                <g fill="rgb(140, 239, 233)">
+                    <path d="M120.783 87.308c-1.55 8.134-8.216 14.775-16.366 16.317-14.684 2.775-27.309-9.817-24.525-24.442 1.541-8.125 8.216-14.775 16.366-16.316 14.675-2.767 27.309 9.816 24.525 24.441Zm37.884-3.991C158.667 51.167 132.5 25 100.333 25 68.175 25 42 51.167 42 83.317c0 .125.008.25.017.366L42 84.95c0 23.458 16.625 52.475 49.408 86.233 2.375 2.459 5.55 3.817 8.925 3.817 3.384 0 6.559-1.358 8.942-3.808 32.775-33.75 49.392-62.775 49.392-86.242l-.017-1.267c.017-.116.017-.241.017-.366Z" fill-rule="evenodd"></path>
+                </g>
+            </svg>
+            -->
+            <div class="toggle" v-on:click="showNav"></div>
+            
+            <div class="nav" v-bind:class="{show: isShowNav}" v-on:touchmove.prevent="" v-on:click="hideNav">
+                <div class="bars">
+                    <!--
+                    <svg class="close-btn" preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="img" aria-label="Back to site"><defs><style>#comp-kd5px9q0_r_comp-llakbege svg [data-color="1"] {fill: #8CEFE9;}</style></defs>
+                        <g>
+                            <path d="M150 180H50c-16.6 0-30-13.4-30-30V50c0-16.6 13.4-30 30-30h100c16.6 0 30 13.4 30 30v100c0 16.6-13.4 30-30 30z" fill="#8cefe9" data-color="1"></path>
+                            <path d="m105.7 100 28.2-28.2c1.6-1.6 1.6-4.1 0-5.7-1.6-1.6-4.1-1.6-5.6 0L100 94.3 71.8 66.2c-1.6-1.6-4.1-1.6-5.7 0-1.6 1.6-1.6 4.1 0 5.7L94.3 100l-28.2 28.2c-1.6 1.6-1.6 4.1 0 5.6.9.8 1.9 1.2 2.9 1.2s2-.4 2.8-1.2l28.2-28.2 28.2 28.2c.8.8 1.8 1.2 2.8 1.2s2-.4 2.8-1.2c1.6-1.6 1.6-4.1 0-5.6L105.7 100z" fill="#000010" data-color="2"></path>
+                        </g>
+                    </svg>
+                    -->
+                    <div class="close-btn"></div>
+                    <br/>
+                    <ul>
+                        <li v-on:click="scrollTo('#intro')" data-i18n="nav.intro">公司介绍</li>
+                        <li v-on:click="scrollTo('#technology')" data-i18n="nav.technology">技术介绍</li>
+                        <li v-on:click="scrollTo('#awards')" data-i18n="nav.awards">荣誉奖项</li>
+                        <li v-on:click="scrollTo('#metaverse')" data-i18n="nav.metaverse">元宇宙案例</li>
+                        <li v-on:click="scrollTo('#digitaltwin')" data-i18n="nav.digitaltwin">数字孪生案例</li>
+                        <li v-on:click="scrollTo('#xr')" data-i18n="nav.xr">XR案例</li>
+                        <li v-on:click="scrollTo('#autostereoscopy')" data-i18n="nav.autostereoscopy">裸眼3D案例</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </header>
+        <section id="welcome" class="welcome">
+            <div class="row row1">
+                <div class="col-sm-7"></div>
+                <div class="col-sm-5">
+                    <div id="intro" class="intro wow fadeInUp">
+                        <h1 data-i18n="welcome.title">公司介绍</h1>
+                        <p><span data-i18n="welcome.desc.letter1">佛山市磁眼科技有限公司，成立于2010年，是高新技术企业，是一支技术+艺术的研发型团队，由海归硕士、博士、教授组成，拥有20年以上研发经验，拥有发明专利、软件著作权数十项。为企业和政府部门提供各类型的3D数字孪生系统、 3D元宇宙系统、 XR大空间系统、 AI系统、裸眼3D动画的开发服务。</span><br/><br/><span data-i18n="welcome.desc.letter2">团队是好莱坞、网易、华为、LG的供应商，曾为雄安新区建设大型交通数字孪生系统、曾为喜羊羊开发400多集动画片，也为国家博物馆和李小龙提供元宇宙解决方案，也服务于腾讯、日产、一汽大众、周大福、供电局、消防局、广东地税、广东省博物馆、华谊兄弟、等等知名企业。</span></p>
+                        <a href="#metaverse"><div class="button" data-i18n="welcome.case">看案例</div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row row2">
+                <div class="col-lg-4 col-md-12">
+                    <div class="video">
+                        <video poster="images/poster.jpg" width="323" height="173" src="./videos/welcome.mp4" v-on:click="onClickVideo"></video>
+                        <svg v-show="!isPlaying" class="play-btn" preserveAspectRatio="xMidYMid meet" data-bbox="10 10 62 62" viewBox="0 0 82 82" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                            <g fill="rgb(0, 0, 0)">
+                                <path d="M41 10c-17.121 0-31 13.879-31 31 0 17.121 13.879 31 31 31 17.121 0 31-13.879 31-31 0-17.121-13.879-31-31-31zm2.008 35.268l-7.531 4.268V32.465l7.531 4.268L50.539 41l-7.531 4.268z" data-color="1"></path>
+                            </g>
+                        </svg>
+                        <h3 data-i18n="welcome.video.title">游戏科技</h3>
+                        <p data-i18n="welcome.video.desc">​游戏技术和科技结合，产生前所未有的交互效果和视觉效果，为仿真、模拟带来高效解决方案</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12"></div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="boss wow fadeInUp">
+                        <img src="images/boss.jpg">
+                        <h6><span data-i18n="welcome.profile.title">创始人 Lloyd Huang</span><br/><span data-i18n="welcome.profile.name">​黄博士 智能视觉专家</span></h6>
+                        <p>•<span data-i18n="welcome.profile.list1">留英归国 智能视觉专家、3D数字艺术专家</span><br/>•<span data-i18n="welcome.profile.list2">佛山动漫协会会长</span><br/>•<span data-i18n="welcome.profile.list3">好莱坞【十三楼元宇宙】总策划、架构师</span><br/>•<span data-i18n="welcome.profile.list4">【李小龙元宇宙】总策划、架构师</span><br/>•<span data-i18n="welcome.profile.list5">雄安新区高速公路数字孪生系统总策划、架构师</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="technology" class="bgscroll technology">
+            <div class="title" data-i18n="technology.title">技术介绍</div>
+            <p class="text1" data-i18n="technology.desc">经过20多年的经验积累和研发迭代，构建了自主知识产权的3D核心引擎模组。</p>
+            <div class="box box1 wow flipInY">
+                <h2 data-i18n="technology.left.title">​核心引擎</h2>
+                <div class="left">
+                    <div class="item" data-i18n="technology.left.list1">3D数字孪生系统</div>
+                    <div class="item" data-i18n="technology.left.list2">3D元宇宙系统</div>
+                    <div class="item" data-i18n="technology.left.list3">XR大空间系统</div>
+                    <div class="item" data-i18n="technology.left.list4">AI+3D 系统 </div>
+                    <div class="item" data-i18n="technology.left.list5">裸眼3D动画</div>
+                </div>
+                <div class="right">
+                    <div class="item" data-i18n="technology.right.list1">影视级画质</div>
+                    <div class="item" data-i18n="technology.right.list2">高并发性能</div>
+                    <div class="item" data-i18n="technology.right.list3">可热更特性</div>
+                    <div class="item" data-i18n="technology.right.list4">高效率性能</div>
+                    <div class="item" data-i18n="technology.right.list5">大量模板素材</div>
+                </div>
+            </div>
+            <div class="box box2 wow slideInLeft">
+                <h2 data-i18n="technology.service.title">服务领域</h2>
+                <div class="row row1">
+                    <div class="col-xs-4">
+                        <div class="item-bold" data-i18n="technology.metaverse.title">元宇宙</div>
+                    </div>
+                    <div class="col-xs-8">
+                        <div class="item" data-i18n="technology.metaverse.list1">游戏</div>
+                        <div class="item" data-i18n="technology.metaverse.list2">文旅</div>
+                        <div class="item" data-i18n="technology.metaverse.list3">航天</div>
+                        <div class="item" data-i18n="technology.metaverse.list4">展厅</div>
+                        <div class="item" data-i18n="technology.metaverse.list5">党建</div>
+                        <div class="item" data-i18n="technology.metaverse.list6">展厅</div>
+                    </div>
+                </div>
+                <div class="row row2">
+                    <div class="col-xs-4">
+                        <div class="item-bold" data-i18n="technology.xr.title">XR系统</div>
+                    </div>
+                    <div class="col-xs-8">
+                        <div class="item" data-i18n="technology.xr.list1">XR大空间系统</div>
+                        <div class="item" data-i18n="technology.xr.list2">大屏互动</div>
+                        <div class="item" data-i18n="technology.xr.list3">XR直播系统</div>
+                        <div class="item" data-i18n="technology.xr.list4">裸眼3D动画</div>
+                        <div class="item" data-i18n="technology.xr.list5">AR互动</div>
+                        <div class="item" data-i18n="technology.xr.list6">3D数字人系统</div>
+                    </div>
+                </div>
+                <div class="row row3">
+                    <div class="col-xs-4">
+                        <div class="item-bold" data-i18n="technology.digitaltwin.title">数字孪生</div>
+                    </div>
+                    <div class="col-xs-8">
+                        <div class="item" data-i18n="technology.digitaltwin.list1">城市管理</div>
+                        <div class="item" data-i18n="technology.digitaltwin.list2">医疗管理</div>
+                        <div class="item" data-i18n="technology.digitaltwin.list3">水利推演</div>
+                        <div class="item" data-i18n="technology.digitaltwin.list4">农业管理</div>
+                        <div class="item" data-i18n="technology.digitaltwin.list5">交通治理</div>
+                        <div class="item" data-i18n="technology.digitaltwin.list6">军事推演</div>
+                        <div class="item" data-i18n="technology.digitaltwin.list7">园区管理</div>
+                        <div class="item" data-i18n="technology.digitaltwin.list8">人体数字孪生</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="awards" class="awards bgscroll">
+            <div class="title" data-i18n="awards.title">​奖项荣誉</div>
+            <div class="row wow slideInLeft">
+                <div class="col-xs-12">
+                    <div class="award award1">
+                        <img src="./images/awards1.png"/>
+                        <div class="items">
+                            <div class="item" data-i18n="awards.list1">软件著作权 54项</div>
+                            <div class="item" data-i18n="awards.list2">专利 5项</div>
+                            <div class="item" data-i18n="awards.list3">商标 11项</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeIn">
+                <div class="col-xs-12">
+                    <div class="award award2">
+                        <img src="./images/awards2.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp">
+                <div class="col-xs-12">
+                    <div class="award award3">
+                        <img src="./images/awards3.png"/>
+                        <div class="items">
+                            <div class="item" data-i18n="awards.list4">国家地理奖</div>
+                            <div class="item" data-i18n="awards.list5">广东省创业明星</div>
+                            <div class="item" data-i18n="awards.list6">戛纳国际银奖</div>
+                            <div class="item" data-i18n="awards.list7">全国法制动画奖</div>
+                            <div class="item" data-i18n="awards.list8">国产优秀动画奖</div>
+                            <div class="item" data-i18n="awards.list9">首届金龙奖</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="metaverse" class="metaverse bgscroll">
+            <div class="title" data-i18n="metaverse.title">元宇宙案例</div>
+            <div class="row">
+                <div class="items">
+                    <div class="item wow flipInX" v-for="(item, index) in cases['metaverse']" :key="index" v-if="index < 5">
+                        <div class="poster" v-bind:style="'background-image:url(' + item.poster + ')'"></div>
+                        <h3>{{item.title[lang]}}</h3>
+                        <p>{{item.desc[lang]}}</p>
+                        <a v-bind:href="'case.html?type=metaverse&index=' + index"><div class="btn" data-i18n="metaverse.play">播放</div></a>
+                    </div>
+                    <div class="item wow flipInX" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="poster hidden-xs"></div>
+                        <h3 class="hidden-xs"></h3>
+                        <p class="hidden-xs"></p>
+                        <a v-bind:href="'cases.html?type=metaverse'"><div class="btn" data-i18n="metaverse.more">更多元宇宙案例</div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="xr" class="xr bgscale">
+            <div class="title" data-i18n="xr.title">XR案例</div>
+            <div class="row">
+                <div class="items">
+                    <div class="item wow flipInY" v-for="(item, index) in cases['xr']" :key="index" v-if="index < 5">
+                        <div class="poster" v-bind:style="'background-image:url(' + item.poster + ')'"></div>
+                        <h3>{{item.title[lang]}}</h3>
+                        <p>{{item.desc[lang]}}</p>
+                        <a v-bind:href="'case.html?type=xr&index=' + index"><div class="btn" data-i18n="xr.play">播放</div></a>
+                    </div>
+                    <div class="item wow flipInY" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="poster hidden-xs"></div>
+                        <h3 class="hidden-xs"></h3>
+                        <p class="hidden-xs"></p>
+                        <a v-bind:href="'cases.html?type=xr'"><div class="btn" data-i18n="xr.more">更多XR案例</div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+        <section id="autostereoscopy" class="autostereoscopy bgscale">
+            <div class="title" data-i18n="autostereoscopy.title">裸眼3D案例</div>
+            <div class="row">
+                <div class="items">
+                    <div class="item wow slideInLeft" v-for="(item, index) in cases['autostereoscopy']" :key="index" v-if="index < 5">
+                        <div class="poster" v-bind:style="'background-image:url(' + item.poster + ')'"></div>
+                        <h3>{{item.title[lang]}}</h3>
+                        <p>{{item.desc[lang]}}</p>
+                        <a v-bind:href="'case.html?type=autostereoscopy&index=' + index"><div class="btn" data-i18n="autostereoscopy.play">播放</div></a>
+                    </div>
+                    <div class="item wow slideInLeft" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="poster hidden-xs"></div>
+                        <h3 class="hidden-xs"></h3>
+                        <p class="hidden-xs"></p>
+                        <a v-bind:href="'cases.html?type=autostereoscopy'"><div class="btn" data-i18n="autostereoscopy.more">更多裸眼3D案例</div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+	
+        <section id="digitaltwin" class="digitaltwin bgscroll">
+            <div class="title" data-i18n="digitaltwin.title">数字孪生案例</div>
+            <div class="row">
+                <div class="items">
+                    <div class="item wow flipInX" v-for="(item, index) in cases['digitaltwin']" :key="index" v-if="index < 5">
+                        <div class="poster" v-bind:style="'background-image:url(' + item.poster + ')'"></div>
+                        <h3>{{item.title[lang]}}</h3>
+                        <p>{{item.desc[lang]}}</p>
+                        <a v-bind:href="'case.html?type=digitaltwin&index=' + index"><div class="btn" data-i18n="digitaltwin.play">播放</div></a>
+                    </div>
+                    <div class="item wow flipInX" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="poster hidden-xs"></div>
+                        <h3 class="hidden-xs"></h3>
+                        <p class="hidden-xs"></p>
+                        <a v-bind:href="'cases.html?type=digitaltwin'"><div class="btn" data-i18n="digitaltwin.more">更多数字孪生案例</div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<footer>
+	<div class="row row1">
+		<div class="col col1 col-sm-2">
+			<p data-i18n="footer.title">LoongBreath</p>
+			<p data-i18n="footer.desc">An international XR & Digital Twin studio based in Hong Kong</p>
+		</div>
+		<div class="col col2 col-sm-5">
+			<p data-i18n="footer.contact">Contact</p>
+			<img class="qrcode visible-xs" src="./images/qrcode.jpg"/>
+			<p data-i18n="footer.address">香港尖沙咀東部文華中心</p>
+			<p><span data-i18n="footer.contact.international.email.title">Email：</span><a href="mailto:magneteye5360538@gmail.com">magneteye5360538@gmail.com</a></p>
+			<p data-i18n="footer.contact.wechat">WeChat QR (for project inquiries only)</p>
+			<img class="qrcode hidden-xs" src="./images/qrcode.jpg"/>
+		</div>
+		<div class="col col3 col-sm-2">
+			<p data-i18n="footer.links">Quick Links</p>
+			<p v-on:click="scrollTo('#intro')" data-i18n="footer.link1">About</p>
+			<p v-on:click="scrollTo('#technology')" data-i18n="footer.link2">Technology</p>
+			<p v-on:click="scrollTo('#awards')" data-i18n="footer.link3">Awards</p>
+			<p v-on:click="scrollTo('#metaverse')" data-i18n="footer.link4">Metaverse Cases</p>
+			<p v-on:click="scrollTo('#digitaltwin')" data-i18n="footer.link5">Digital Twin Cases</p>
+			<p v-on:click="scrollTo('#xr')" data-i18n="footer.link6">XR Cases</p>
+			<p v-on:click="scrollTo('#autostereoscopy')" data-i18n="footer.link7">3D Display Cases</p>
+		</div>
+		<div class="col col4 col-sm-2">
+			<p data-i18n="footer.social">Social</p>
+			<p><a href="https://www.youtube.com/@LoongBreath">YouTube</a></p>
+			<p><a href="https://www.instagram.com/loongbreath">Instagram</a></p>
+			<p><a href="https://www.linkedin.com/company/loongbreath">LinkedIn</a></p>
+		</div>
+	</div>
+	<div class="row row2">
+		<p class="col-sm-9">© 2010–2025 Loong Breath International Ltd. All Rights Reserved.</p>
+		<p class="col-sm-3">Powered by LoongBreath Group</p>
+	</div>
+</footer>
+
+	</div>
+
+    <script src="lib/wow.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/utils.js"></script>
+    <script src="lib/vue.min.js"></script>
+    <script src="lib/TweenMax.min.js"></script>
+	<script src="js/main.js?v=4"></script>
+	<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const totalFrames = 60;          // 你的帧数
+    const frameRate = 24;            // 每秒24帧，可改30等
+    const logoImg = document.getElementById("logoSeq");
+    let frame = 0;
+
+    if (!logoImg) return;
+
+    function nextFrame() {
+        const fileName = `./images/logo_seq/龙气国际logo-${String(frame).padStart(2, '0')}.png`;
+        logoImg.src = fileName;
+        frame = (frame + 1) % totalFrames;
+    }
+
+    setInterval(nextFrame, 1000 / frameRate);
+});
+</script>
+
+</body>
+</html>

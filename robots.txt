@@ -1,0 +1,16 @@
+# Robots.txt for LoongBreath International Ltd. (龙气国际有限公司)
+# This file guides search engine crawlers on what to index.
+
+User-agent: *
+Allow: /
+
+# Block development and library directories
+Disallow: /lib/
+Disallow: /bootstrap/
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/temp/
+Disallow: /*.less$
+
+# Sitemap location
+Sitemap: https://www.loongbreath.com/sitemap.xml

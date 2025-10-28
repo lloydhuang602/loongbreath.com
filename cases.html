@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Cases | Loong Breath International Ltd.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+
+	<!-- ✅ SEO -->
+	<meta name="description" content="Explore Loong Breath International Ltd.'s XR, Digital Twin, Metaverse, and Autostereoscopic 3D projects. Based in Hong Kong.">
+
+	<meta name="keywords" content="LoongBreath, 龙气国际, Loong Breath International Ltd., Hong Kong, XR, Digital Twin, Metaverse, AI, 3D, WebXR">
+
+	<!-- ✅ Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Project Cases | Loong Breath International Ltd.">
+	<meta property="og:description" content="Explore XR, Metaverse and Digital Twin projects by Loong Breath International Ltd.">
+	<meta property="og:image" content="https://www.loongbreath.com/images/share.jpg">
+	<meta property="og:url" content="https://www.loongbreath.com/cases.html">
+
+	<!-- ✅ Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Loong Breath International Ltd. | XR & Metaverse Cases">
+	<meta name="twitter:description" content="Explore immersive XR and Digital Twin experiences by Loong Breath International Ltd.">
+	<meta name="twitter:image" content="https://www.loongbreath.com/images/share.jpg">
+
+	<!-- ✅ 多语言 hreflang -->
+	<link rel="alternate" href="https://www.loongbreath.com/en/cases.html" hreflang="en">
+	<link rel="alternate" href="https://www.loongbreath.com/zh-hant/cases.html" hreflang="zh-Hant">
+	<link rel="alternate" href="https://www.loongbreath.com/ja/cases.html" hreflang="ja">
+	<link rel="alternate" href="https://www.loongbreath.com/ko/cases.html" hreflang="ko">
+	<link rel="alternate" href="https://www.loongbreath.com/cases.html" hreflang="x-default">
+
+	<!-- ✅ 样式与图标 -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet/less" type="text/css" href="./css/styles.less?v=5"/>
+	<link rel="stylesheet/less" type="text/css" href="css/animate.min.css"/>
+	<link rel="icon" sizes="192x192" href="./favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="./favicon.ico" type="image/x-icon">
+
+	<!-- ✅ JS -->
+	<script src="./lib/less.min.js"></script>
+	<script src="lib/jquery-2.0.0.min.js"></script>
+	<script src="lib/URI.min.js"></script>
+	<script>
+		var version = 1;
+		var params = URI().search(true);
+		var type = params['type'];
+		var lang = localStorage.getItem('lang') || 'en';
+	</script>
+
+	<!-- ✅ Structured Data -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Organization",
+	  "name": "Loong Breath International Ltd.",
+	  "alternateName": "LoongBreath",
+	  "url": "https://www.loongbreath.com/",
+	  "logo": "https://www.loongbreath.com/favicon.ico",
+	  "parentOrganization": {
+		"@type": "Organization",
+		"name": "LoongBreath Group",
+		"url": "https://www.loongbreath.com/"
+	  },
+	  "sameAs": [
+		"https://www.loongbreath.com/",
+		"https://www.gochina3d.com/",
+		"https://www.breathingjewels.com/"
+	  ],
+	  "description": "Loong Breath International Ltd. showcases 3D Digital Twin, XR and Metaverse projects, part of the LoongBreath Group in Hong Kong."
+	}
+	</script>
+</head>
+
+
+
+<script src="https://cdn.counter.dev/script.js" data-id="3f67edbc-5578-4662-b983-38498e33c9c4" data-utcoffset="8"></script>
+<body>
+	<div id="app" class="container-fluid" v-bind:class="{show: isActive}">
+		<header>
+            <div class="brand">
+                <!-- <img class="logo" src="./images/logo.gif?v=2"/> -->
+				<img id="logoSeq" class="logo" src="./images/logo_seq/龙气国际logo-00.png" alt="LoongBreath Logo">
+
+                <a href="#" data-i18n="title">Loong Breath International Ltd.</a>
+
+				<select class="lang-select" v-model="lang" @change="langChange">
+					<option value="zh" v-bind:selected="lang == 'zh' ? 'selected' : ''">简体中文</option>
+					<option value="zh-Hant" v-bind:selected="lang == 'zh-Hant' ? 'selected' : ''">繁體中文</option>
+					<option value="en" v-bind:selected="lang == 'en' ? 'selected' : ''">English</option>
+					<option value="ja" v-bind:selected="lang == 'ja' ? 'selected' : ''">日本語</option>
+					<option value="ko" v-bind:selected="lang == 'ko' ? 'selected' : ''">한국어</option>
+				</select>
+            </div>
+            <div class="toggle" v-on:click="showNav"></div>
+        </header>
+        <section class="cases" v-bind:class="{metaverse: type == 'metaverse', digitaltwin: type == 'digitaltwin', xr: type == 'xr', autostereoscopy: type == 'autostereoscopy', bgscroll: type == 'metaverse' || type == 'digitaltwin', bgscale: type == 'xr' || type == 'autostereoscopy'}">
+            <div v-if="type == 'metaverse'" class="title" data-i18n="metaverse.title">元宇宙案例</div>
+            <div v-if="type == 'digitaltwin'" class="title" data-i18n="digitaltwin.title">数字孪生案例</div>
+            <div v-if="type == 'xr'" class="title" data-i18n="xr.title">XR案例</div>
+            <div v-if="type == 'autostereoscopy'" class="title" data-i18n="autostereoscopy.title">裸眼3D案例</div>
+
+            <div class="row">
+                <div class="items">
+                    <div class="item wow" v-for="(item, index) in cases[type]" :key="index">
+                        <div class="poster" v-bind:style="'background-image:url(' + item.poster + ')'"></div>
+                        <h3>{{item.title[lang]}}</h3>
+                        <p>{{item.desc[lang]}}</p>
+                        <a v-bind:href="'case.html?type=' + type + '&index=' + index"><div class="btn" data-i18n="metaverse.play">播放</div></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="nav" v-bind:class="{show: isShowNav}" v-on:touchmove.prevent="" v-on:click="hideNav">
+            <div class="bars">
+                <div class="close-btn"></div>
+                <br/>
+                <ul>
+					<a href="index.html#intro"><li data-i18n="footer.link1">公司介绍</li></a>
+					<a href="index.html#technology"><li data-i18n="footer.link2">技术介绍</li></a>
+					<a href="index.html#awards"><li data-i18n="footer.link3">荣誉奖项</li></a>
+					<a href="index.html#metaverse"><li data-i18n="footer.link4">元宇宙案例</li></a>
+					<a href="index.html#digitaltwin"><li data-i18n="footer.link5">数字孪生案例</li></a>
+					<a href="index.html#xr"><li data-i18n="footer.link6">XR案例</li></a>
+					<a href="index.html#autostereoscopy"><li data-i18n="footer.link7">裸眼3D案例</li></a>
+                </ul>
+                
+            </div>
+        </div>
+	</div>
+
+    <script src="lib/wow.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/utils.js"></script>
+    <script src="lib/vue.min.js"></script>
+    <script src="lib/TweenMax.min.js"></script>
+	<script src="js/main.js?v=4"></script>
+	<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const totalFrames = 60;          // 你的帧数
+    const frameRate = 24;            // 每秒24帧，可改30等
+    const logoImg = document.getElementById("logoSeq");
+    let frame = 0;
+
+    if (!logoImg) return;
+
+    function nextFrame() {
+        const fileName = `./images/logo_seq/龙气国际logo-${String(frame).padStart(2, '0')}.png`;
+        logoImg.src = fileName;
+        frame = (frame + 1) % totalFrames;
+    }
+
+    setInterval(nextFrame, 1000 / frameRate);
+});
+</script>
+
+</body>
+</html>

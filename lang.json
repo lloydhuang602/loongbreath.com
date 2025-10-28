@@ -1,0 +1,669 @@
+﻿{
+"title": {
+  "zh": "龙气国际有限公司",
+  "zh-Hant": "龍氣國際有限公司",
+  "en": "Loong Breath International Ltd.",
+  "ja": "龍気国際有限公司",
+  "ko": "룽치 인터내셔널 유한회사"
+},
+
+  "nav.intro": {
+    "zh": "公司介绍",
+    "zh-Hant": "公司介紹",
+    "en": "Company Introduction",
+    "ja": "会社概要",
+    "ko": "회사 소개"
+  },
+  "nav.technology": {
+    "zh": "技术介绍",
+    "zh-Hant": "技術介紹",
+    "en": "Technology Introduction",
+    "ja": "技術紹介",
+    "ko": "기술 소개"
+  },
+  "nav.awards": {
+    "zh": "荣誉奖项",
+    "zh-Hant": "榮譽獎項",
+    "en": "Honors & Awards",
+    "ja": "栄誉と賞",
+    "ko": "수상 및 영예"
+  },
+  "nav.metaverse": {
+    "zh": "元宇宙案例",
+    "zh-Hant": "元宇宙案例",
+    "en": "Metaverse Cases",
+    "ja": "メタバース事例",
+    "ko": "메타버스 사례"
+  },
+  "nav.digitaltwin": {
+    "zh": "数字孪生案例",
+    "zh-Hant": "數位孿生案例",
+    "en": "Digital Twin Cases",
+    "ja": "デジタルツイン事例",
+    "ko": "디지털 트윈 사례"
+  },
+  "nav.xr": {
+    "zh": "XR案例",
+    "zh-Hant": "XR案例",
+    "en": "XR Cases",
+    "ja": "XR事例",
+    "ko": "XR 사례"
+  },
+  "nav.autostereoscopy": {
+    "zh": "裸眼3D案例",
+    "zh-Hant": "裸眼3D案例",
+    "en": "Autostereoscopy 3D Cases",
+    "ja": "裸眼3D事例",
+    "ko": "입체 영상(3D) 사례"
+  },
+  "welcome.title": {
+    "zh": "公司介绍",
+    "zh-Hant": "公司介紹",
+    "en": "Company Introduction",
+    "ja": "会社概要",
+    "ko": "회사 소개"
+  },
+"welcome.desc.letter1": {
+  "zh": "龙气国际有限公司（Loong Breath International Ltd.），总部位于香港尖沙咀东部文华中心，专注于3D数字孪生、XR大空间、AI系统与裸眼3D动画开发。融合科技与艺术，为全球企业与文化项目提供沉浸式元宇宙体验。",
+  "zh-Hant": "龍氣國際有限公司（Loong Breath International Ltd.），總部位於香港，專注於3D數位孿生、XR大空間、AI系統與裸眼3D動畫開發。融合科技與藝術，為全球企業與文化項目提供沉浸式元宇宙體驗。",
+  "en": "Loong Breath International Ltd., headquartered in Hong Kong, specializes in 3D digital twin systems, XR large-space experiences, AI systems, and autostereoscopic 3D animation. Combining technology and art, we provide immersive metaverse experiences for global enterprises and cultural projects.",
+  "ja": "龍気国際有限公司（Loong Breath International Ltd.）は香港に本社を置き、3D デジタルツインシステム、XR 大空間体験、AI システム、裸眼 3D アニメーションの開発を専門としています。技術と芸術を融合し、世界中の企業や文化プロジェクトに没入型メタバース体験を提供します。",
+  "ko": "룽치 인터내셔널 유한회사는 홍콩에 본사를 두고 있으며, 3D 디지털 트윈 시스템, XR 대형 공간, AI 시스템, 입체 영상(3D) 애니메이션 개발에 특화되어 있습니다. 기술과 예술을 결합하여 전 세계 기업과 문화 프로젝트에 몰입형 메타버스 경험을 제공합니다."
+},
+
+"welcome.desc.letter2": {
+  "zh": "公司隶属于 LoongBreath 集团，由创始人 Lloyd Huang 博士领导，业务涵盖 XR 剧场、元宇宙展馆、数字孪生城市、AI 虚拟人系统、裸眼 3D 广告屏等多个领域。",
+  "zh-Hant": "公司隸屬於 LoongBreath 集團，由創始人 Lloyd Huang 博士領導，業務涵蓋 XR 劇場、元宇宙展館、數位孿生城市、AI 虛擬人系統、裸眼 3D 廣告屏等多個領域。",
+  "en": "As part of the LoongBreath Group, the company is led by founder Dr. Lloyd Huang and operates across XR theaters, metaverse exhibitions, digital twin cities, AI virtual human systems, and 3D advertising displays.",
+  "ja": "LoongBreath グループの一員として、創設者 Lloyd Huang 博士の指導の下、XR シアター、メタバース展示館、デジタルツイン都市、AI バーチャルヒューマンシステム、3D 広告スクリーンなど多様な分野で事業を展開しています。",
+  "ko": "룽브레스 그룹의 일원으로서, 창립자 황 박사의 리더십 아래 XR 극장, 메타버스 전시관, 디지털 트윈 도시, AI 가상 인간 시스템, 3D 광고 스크린 등 다양한 분야에서 활동하고 있습니다."
+},
+
+  "welcome.case": {
+    "zh": "看案例",
+    "zh-Hant": "看案例",
+    "en": "View Cases",
+    "ja": "事例を見る",
+    "ko": "사례 보기"
+  },
+  "welcome.video.title": {
+    "zh": "游戏科技",
+    "zh-Hant": "遊戲科技",
+    "en": "Gaming Technology",
+    "ja": "ゲームテクノロジー",
+    "ko": "게임 기술"
+  },
+  "welcome.video.desc": {
+    "zh": "游戏技术和科技结合，产生前所未有的交互效果和视觉效果，为仿真、模拟带来高效解决方案",
+    "zh-Hant": "遊戲技術和科技結合，產生前所未有的互動效果和視覺效果，為仿真、模擬帶來高效解決方案",
+    "en": "The combination of gaming technology and science produces unprecedented interactive and visual effects, bringing efficient solutions for simulation and modeling.",
+    "ja": "ゲーム技術と科学技術の融合により、前例のないインタラクティブ効果と視覚効果を生み出し、シミュレーションとモデリングに効率的なソリューションをもたらします。",
+    "ko": "게임 기술과 과학 기술의 결합은 전례 없는 상호 작용 효과와 시각 효과를 생성하여 시뮬레이션 및 모델링을 위한 효율적인 솔루션을 제공합니다."
+  },
+  "welcome.profile.title": {
+    "zh": "创始人 Lloyd Huang",
+    "zh-Hant": "創始人 Lloyd Huang",
+    "en": "Founder Lloyd Huang",
+    "ja": "創設者 Lloyd Huang",
+    "ko": "창립자 Lloyd Huang"
+  },
+  "welcome.profile.name": {
+    "zh": "黄博士 智能视觉专家",
+    "zh-Hant": "黃博士 智能視覺專家",
+    "en": "Dr. Huang, Intelligent Vision Expert",
+    "ja": "黄博士 智能視覚専門家",
+    "ko": "황 박사, 지능형 비전 전문가"
+  },
+  "welcome.profile.list1": {
+    "zh": "留英归国 智能视觉专家、3D数字艺术专家",
+    "zh-Hant": "留英歸國 智能視覺專家、3D數位藝術專家",
+    "en": "Returnee from UK, Intelligent Vision Expert, 3D Digital Art Expert",
+    "ja": "英国帰国、智能視覚専門家、3Dデジタルアート専門家",
+    "ko": "영국 유학파, 지능형 비전 전문가, 3D 디지털 아트 전문가"
+  },
+  "welcome.profile.list2": {
+    "zh": "佛山动漫协会会长",
+    "zh-Hant": "佛山動漫協會會長",
+    "en": "President of Foshan Animation Association",
+    "ja": "佛山动漫協会会長",
+    "ko": "포산 애니메이션 협회 회장"
+  },
+  "welcome.profile.list3": {
+    "zh": "好莱坞【十三楼元宇宙】总策划、架构师",
+    "zh-Hant": "好萊塢【十三樓元宇宙】總策劃、架構師",
+    "en": "Chief Planner and Architect of Hollywood's '13th Floor Metaverse'",
+    "ja": "ハリウッド【13階メタバース】総合プランナー、アーキテクト",
+    "ko": "할리우드 '13층 메타버스' 총 기획자, 아키텍트"
+  },
+  "welcome.profile.list4": {
+    "zh": "【李小龙元宇宙】总策划、架构师",
+    "zh-Hant": "【李小龍元宇宙】總策劃、架構師",
+    "en": "Chief Planner and Architect of 'Bruce Lee Metaverse'",
+    "ja": "【ブルース・リーメタバース】総合プランナー、アーキテクト",
+    "ko": "『이소룡 메타버스』 총 기획자, 아키텍트"
+  },
+  "welcome.profile.list5": {
+    "zh": "雄安新区高速公路数字孪生系统总策划、架构师",
+    "zh-Hant": "雄安新區高速公路數位孿生系統總策劃、架構師",
+    "en": "Chief Planner and Architect of the Xiong'an New Area Expressway Digital Twin System",
+    "ja": "雄安新区高速道路デジタルツインシステム総合プランナー、アーキテクト",
+    "ko": "슝안 신구 고속도로 디지털 트윈 시스템 총 기획자, 아키텍트"
+  },
+  "technology.title": {
+    "zh": "技术介绍",
+    "zh-Hant": "技術介紹",
+    "en": "Technology Introduction",
+    "ja": "技術紹介",
+    "ko": "기술 소개"
+  },
+  "technology.desc": {
+    "zh": "经过20多年的经验积累和研发迭代，构建了自主知识产权的3D核心引擎模组。",
+    "zh-Hant": "經過20多年的經驗積累和研發迭代，構建了自主知識產權的3D核心引擎模組。",
+    "en": "After more than 20 years of experience accumulation and R&D iteration, we have built a 3D core engine module with independent intellectual property rights.",
+    "ja": "20年以上の経験の蓄積と研究開発の反復を経て、独自の知的財産権を有する3Dコアエンジンモジュールを構築しました。",
+    "ko": "20년 이상의 경험 축적과 연구 개발 반복을 통해 자체 지식 재산권을 가진 3D 코어 엔진 모듈을 구축했습니다."
+  },
+  "technology.left.title": {
+    "zh": "核心引擎",
+    "zh-Hant": "核心引擎",
+    "en": "Core Engine",
+    "ja": "コアエンジン",
+    "ko": "코어 엔진"
+  },
+  "technology.left.list1": {
+    "zh": "3D数字孪生系统",
+    "zh-Hant": "3D數位孿生系統",
+    "en": "3D Digital Twin System",
+    "ja": "3Dデジタルツインシステム",
+    "ko": "3D 디지털 트윈 시스템"
+  },
+  "technology.left.list2": {
+    "zh": "3D元宇宙系统",
+    "zh-Hant": "3D元宇宙系統",
+    "en": "3D Metaverse System",
+    "ja": "3Dメタバースシステム",
+    "ko": "3D 메타버스 시스템"
+  },
+  "technology.left.list3": {
+    "zh": "XR大空间系统",
+    "zh-Hant": "XR大空間系統",
+    "en": "XR LBE Entertain",
+    "ja": "XR大空間システム",
+    "ko": "XR 대형 공간 시스템"
+  },
+  "technology.left.list4": {
+    "zh": "AI+3D 系统",
+    "zh-Hant": "AI+3D 系統",
+    "en": "AI+3D System",
+    "ja": "AI+3D システム",
+    "ko": "AI+3D 시스템"
+  },
+  "technology.left.list5": {
+    "zh": "裸眼3D动画",
+    "zh-Hant": "裸眼3D動畫",
+    "en": "Autostereoscopic 3D Animation",
+    "ja": "裸眼3Dアニメーション",
+    "ko": "입체 영상(3D) 애니메이션"
+  },
+  "technology.right.list1": {
+    "zh": "影视级画质",
+    "zh-Hant": "影視級畫質",
+    "en": "Cinematic Quality",
+    "ja": "映画級の画質",
+    "ko": "영화 급 화질"
+  },
+  "technology.right.list2": {
+    "zh": "高并发性能",
+    "zh-Hant": "高併發性能",
+    "en": "High Concurrency Performance",
+    "ja": "高同時実行性能",
+    "ko": "높은 동시 성능"
+  },
+  "technology.right.list3": {
+    "zh": "可热更特性",
+    "zh-Hant": "可熱更特性",
+    "en": "Hot Swappable",
+    "ja": "ホットスワップ可能",
+    "ko": "핫 스왑 가능"
+  },
+  "technology.right.list4": {
+    "zh": "高效率性能",
+    "zh-Hant": "高效率性能",
+    "en": "High Efficiency Performance",
+    "ja": "高効率性能",
+    "ko": "고효율 성능"
+  },
+  "technology.right.list5": {
+    "zh": "大量模板素材",
+    "zh-Hant": "大量模板素材",
+    "en": "Extensive Template Assets",
+    "ja": "豊富なテンプレート素材",
+    "ko": "다량의 템플릿 자산"
+  },
+  "technology.service.title": {
+    "zh": "服务领域",
+    "zh-Hant": "服務領域",
+    "en": "Service Areas",
+    "ja": "サービス分野",
+    "ko": "서비스 분야"
+  },
+  "technology.metaverse.title": {
+    "zh": "元宇宙",
+    "zh-Hant": "元宇宙",
+    "en": "Metaverse",
+    "ja": "メタバース",
+    "ko": "메타버스"
+  },
+  "technology.metaverse.list1": {
+    "zh": "游戏",
+    "zh-Hant": "遊戲",
+    "en": "Gaming",
+    "ja": "ゲーム",
+    "ko": "게임"
+  },
+  "technology.metaverse.list2": {
+    "zh": "文旅",
+    "zh-Hant": "文旅",
+    "en": "Cultural Tourism",
+    "ja": "文化観光",
+    "ko": "문화 관광"
+  },
+  "technology.metaverse.list3": {
+    "zh": "航天",
+    "zh-Hant": "航天",
+    "en": "Aerospace",
+    "ja": "航空宇宙",
+    "ko": "항공 우주"
+  },
+  "technology.metaverse.list4": {
+    "zh": "展厅",
+    "zh-Hant": "展廳",
+    "en": "Exhibition Hall",
+    "ja": "展示ホール",
+    "ko": "전시 홀"
+  },
+  "technology.metaverse.list5": {
+    "zh": "党建",
+    "zh-Hant": "黨建",
+    "en": "Party Building",
+    "ja": "党建",
+    "ko": "당 건설"
+  },
+  "technology.metaverse.list6": {
+    "zh": "展厅",
+    "zh-Hant": "展廳",
+    "en": "Exhibition Hall",
+    "ja": "展示ホール",
+    "ko": "전시 홀"
+  },
+  "technology.xr.title": {
+    "zh": "XR系统",
+    "zh-Hant": "XR系統",
+    "en": "XR System",
+    "ja": "XRシステム",
+    "ko": "XR 시스템"
+  },
+  "technology.xr.list1": {
+    "zh": "XR大空间系统",
+    "zh-Hant": "XR大空間系統",
+    "en": "XR Large Space System",
+    "ja": "XR大空間システム",
+    "ko": "XR 대형 공간 시스템"
+  },
+  "technology.xr.list2": {
+    "zh": "大屏互动",
+    "zh-Hant": "大屏互動",
+    "en": "Large Screen Interaction",
+    "ja": "大画面インタラクション",
+    "ko": "대형 스크린 상호 작용"
+  },
+  "technology.xr.list3": {
+    "zh": "XR直播系统",
+    "zh-Hant": "XR直播系統",
+    "en": "XR Live Streaming System",
+    "ja": "XRライブ配信システム",
+    "ko": "XR 실시간 스트리밍 시스템"
+  },
+  "technology.xr.list4": {
+    "zh": "裸眼3D动画",
+    "zh-Hant": "裸眼3D動畫",
+    "en": "Autostereoscopic 3D Animation",
+    "ja": "裸眼3Dアニメーション",
+    "ko": "입체 영상(3D) 애니메이션"
+  },
+  "technology.xr.list5": {
+    "zh": "AR互动",
+    "zh-Hant": "AR互動",
+    "en": "AR Interaction",
+    "ja": "ARインタラクション",
+    "ko": "AR 상호 작용"
+  },
+  "technology.xr.list6": {
+    "zh": "3D数字人系统",
+    "zh-Hant": "3D數位人系統",
+    "en": "3D Digital Human System",
+    "ja": "3Dデジタルヒューマンシステム",
+    "ko": "3D 디지털 휴먼 시스템"
+  },
+  "technology.digitaltwin.title": {
+    "zh": "数字孪生",
+    "zh-Hant": "數位孿生",
+    "en": "Digital Twin",
+    "ja": "デジタルツイン",
+    "ko": "디지털 트윈"
+  },
+  "technology.digitaltwin.list1": {
+    "zh": "城市管理",
+    "zh-Hant": "城市管理",
+    "en": "Urban Management",
+    "ja": "都市管理",
+    "ko": "도시 관리"
+  },
+  "technology.digitaltwin.list2": {
+    "zh": "医疗管理",
+    "zh-Hant": "醫療管理",
+    "en": "Medical Management",
+    "ja": "医療管理",
+    "ko": "의료 관리"
+  },
+  "technology.digitaltwin.list3": {
+    "zh": "水利推演",
+    "zh-Hant": "水利推演",
+    "en": "Water Conservancy Simulation",
+    "ja": "水利シミュレーション",
+    "ko": "수리 시뮬레이션"
+  },
+  "technology.digitaltwin.list4": {
+    "zh": "农业管理",
+    "zh-Hant": "農業管理",
+    "en": "Agricultural Management",
+    "ja": "農業管理",
+    "ko": "농업 관리"
+  },
+  "technology.digitaltwin.list5": {
+    "zh": "交通治理",
+    "zh-Hant": "交通治理",
+    "en": "Traffic Management",
+    "ja": "交通管理",
+    "ko": "교통 관리"
+  },
+  "technology.digitaltwin.list6": {
+    "zh": "军事推演",
+    "zh-Hant": "軍事推演",
+    "en": "Military Simulation",
+    "ja": "軍事シミュレーション",
+    "ko": "군사 시뮬레이션"
+  },
+  "technology.digitaltwin.list7": {
+    "zh": "园区管理",
+    "zh-Hant": "園區管理",
+    "en": "Park Management",
+    "ja": "パーク管理",
+    "ko": "단지 관리"
+  },
+  "technology.digitaltwin.list8": {
+    "zh": "人体数字孪生",
+    "zh-Hant": "人體數位孿生",
+    "en": "Human Digital Twin",
+    "ja": "人体デジタルツイン",
+    "ko": "인체 디지털 트윈"
+  },
+  "awards.title": {
+    "zh": "奖项荣誉",
+    "zh-Hant": "獎項榮譽",
+    "en": "Awards & Honors",
+    "ja": "賞と栄誉",
+    "ko": "수상 및 영예"
+  },
+  "awards.list1": {
+    "zh": "软件著作权 54项",
+    "zh-Hant": "軟體著作權 54項",
+    "en": "54 Software Copyrights",
+    "ja": "ソフトウェア著作権 54件",
+    "ko": "소프트웨어 저작권 54건"
+  },
+  "awards.list2": {
+    "zh": "专利 5项",
+    "zh-Hant": "專利 5項",
+    "en": "5 Patents",
+    "ja": "特許 5件",
+    "ko": "특허 5건"
+  },
+  "awards.list3": {
+    "zh": "商标 11项",
+    "zh-Hant": "商標 11項",
+    "en": "11 Trademarks",
+    "ja": "商標 11件",
+    "ko": "상표 11건"
+  },
+  "awards.list4": {
+    "zh": "国家地理奖",
+    "zh-Hant": "國家地理獎",
+    "en": "National Geographic Award",
+    "ja": "ナショナルジオグラフィック賞",
+    "ko": "내셔널 지오그래픽 상"
+  },
+  "awards.list5": {
+    "zh": "广东省创业明星",
+    "zh-Hant": "廣東省創業明星",
+    "en": "Guangdong Province Entrepreneurship Star",
+    "ja": "広東省起業スター",
+    "ko": "광동성 창업 스타"
+  },
+  "awards.list6": {
+    "zh": "戛纳国际银奖",
+    "zh-Hant": "坎城國際銀獎",
+    "en": "Cannes International Silver Award",
+    "ja": "カンヌ国際銀賞",
+    "ko": "칸 국제 은상"
+  },
+  "awards.list7": {
+    "zh": "全国法制动画奖",
+    "zh-Hant": "全國法制動畫獎",
+    "en": "National Legal Animation Award",
+    "ja": "全国法制アニメ賞",
+    "ko": "전국 법제 애니메이션 상"
+  },
+  "awards.list8": {
+    "zh": "国产优秀动画奖",
+    "zh-Hant": "國產優秀動畫獎",
+    "en": "National Outstanding Domestic Animation Award",
+    "ja": "国産優秀アニメ賞",
+    "ko": "국산 우수 애니메이션 상"
+  },
+  "awards.list9": {
+    "zh": "首届金龙奖",
+    "zh-Hant": "首屆金龍獎",
+    "en": "First Golden Dragon Award",
+    "ja": "第一回金龍賞",
+    "ko": "제1회 골든 드래곤 어워드"
+  },
+  "metaverse.title": {
+    "zh": "元宇宙案例",
+    "zh-Hant": "元宇宙案例",
+    "en": "Metaverse Cases",
+    "ja": "メタバース事例",
+    "ko": "메타버스 사례"
+  },
+  "metaverse.play": {
+    "zh": "播放",
+    "zh-Hant": "播放",
+    "en": "Play",
+    "ja": "再生",
+    "ko": "재생"
+  },
+  "metaverse.more": {
+    "zh": "更多元宇宙案例",
+    "zh-Hant": "更多元宇宙案例",
+    "en": "More",
+    "ja": "その他のメタバース事例",
+    "ko": "더 많은 메타버스 사례"
+  },
+  "digitaltwin.title": {
+    "zh": "数字孪生案例",
+    "zh-Hant": "數位孿生案例",
+    "en": "Digital Twin Cases",
+    "ja": "デジタルツイン事例",
+    "ko": "디지털 트윈 사례"
+  },
+  "digitaltwin.play": {
+    "zh": "播放",
+    "zh-Hant": "播放",
+    "en": "Play",
+    "ja": "再生",
+    "ko": "재생"
+  },
+  "digitaltwin.more": {
+    "zh": "更多数字孪生案例",
+    "zh-Hant": "更多數位孿生案例",
+    "en": "More",
+    "ja": "その他のデジタルツイン事例",
+    "ko": "더 많은 디지털 트윈 사례"
+  },
+  "xr.title": {
+    "zh": "XR案例",
+    "zh-Hant": "XR案例",
+    "en": "XR Cases",
+    "ja": "XR事例",
+    "ko": "XR 사례"
+  },
+  "xr.play": {
+    "zh": "播放",
+    "zh-Hant": "播放",
+    "en": "Play",
+    "ja": "再生",
+    "ko": "재생"
+  },
+  "xr.more": {
+    "zh": "更多XR案例",
+    "zh-Hant": "更多XR案例",
+    "en": "More",
+    "ja": "その他のXR事例",
+    "ko": "더 많은 XR 사례"
+  },
+  "autostereoscopy.title": {
+    "zh": "裸眼3D案例",
+    "zh-Hant": "裸眼3D案例",
+    "en": "Autostereoscopy 3D Cases",
+    "ja": "裸眼3D事例",
+    "ko": "입체 영상(3D) 사례"
+  },
+  "autostereoscopy.play": {
+    "zh": "播放",
+    "zh-Hant": "播放",
+    "en": "Play",
+    "ja": "再生",
+    "ko": "재생"
+  },
+  "autostereoscopy.more": {
+    "zh": "更多裸眼3D案例",
+    "zh-Hant": "更多裸眼3D案例",
+    "en": "More",
+    "ja": "その他の裸眼3D事例",
+    "ko": "더 많은 입체 영상(3D) 사례"
+  },
+  "footer.title": {
+    "zh-Hant": "龍氣國際有限公司",
+    "en": "Loong Breath International Ltd.",
+    "ja": "龍気国際有限公司",
+    "ko": "룽치 인터내셔널 유한회사"
+  },
+  "footer.desc": {
+    "zh-Hant": "專注於3D系統與XR體驗開發的國際公司",
+    "en": "An international company focused on 3D systems and XR experience development",
+    "ja": "3DシステムとXR体験開発に特化した国際企業",
+    "ko": "3D 시스템 및 XR 경험 개발에 중점을 둔 국제 회사"
+  },
+
+  "footer.contact": {
+    "zh-Hant": "聯繫",
+    "en": "Contact",
+    "ja": "連絡先",
+    "ko": "연락처"
+  },
+  
+  "footer.address": {
+    "zh-Hant": "香港尖沙咀東部文華中心",
+    "en": "Hong Kong, Tsim Sha Tsui East, Empire Centre",
+    "ja": "香港チムサーチョイ東部エンパイアセンター",
+    "ko": "홍콩 침사추이 동부 엠파이어 센터"
+  },
+  
+
+  "footer.contact.international.email.title": {
+    "zh-Hant": "電子郵箱：",
+    "en": "Email:",
+    "ja": "メール：",
+    "ko": "이메일:"
+  },
+  "footer.social": {
+    "zh-Hant": "社交媒體",
+    "en": "Social Media",
+    "ja": "ソーシャルメディア",
+    "ko": "소셜 미디어"
+  },
+  
+  "footer.links": {
+    "zh": "快速导航",
+    "zh-Hant": "快速導航",
+    "en": "Quick Links",
+    "ja": "クイックリンク",
+    "ko": "빠른 링크"
+  },
+  "footer.link1": {
+    "zh": "公司介绍",
+    "zh-Hant": "公司介紹",
+    "en": "Company Introduction",
+    "ja": "会社概要",
+    "ko": "회사 소개"
+  },
+  "footer.link2": {
+    "zh": "技术介绍",
+    "zh-Hant": "技術介紹",
+    "en": "Technology Introduction",
+    "ja": "技術紹介",
+    "ko": "기술 소개"
+  },
+  "footer.link3": {
+    "zh": "荣誉奖项",
+    "zh-Hant": "榮譽獎項",
+    "en": "Honors & Awards",
+    "ja": "栄誉と賞",
+    "ko": "수상 및 영예"
+  },
+  "footer.link4": {
+    "zh": "元宇宙案例",
+    "zh-Hant": "元宇宙案例",
+    "en": "Metaverse Cases",
+    "ja": "メタバース事例",
+    "ko": "메타버스 사례"
+  },
+  "footer.link5": {
+    "zh": "数字孪生案例",
+    "zh-Hant": "數位孿生案例",
+    "en": "Digital Twin Cases",
+    "ja": "デジタルツイン事例",
+    "ko": "디지털 트윈 사례"
+  },
+  "footer.link6": {
+    "zh": "XR案例",
+    "zh-Hant": "XR案例",
+    "en": "XR Cases",
+    "ja": "XR事例",
+    "ko": "XR 사례"
+  },
+  "footer.link7": {
+    "zh": "裸眼3D案例",
+    "zh-Hant": "裸眼3D案例",
+    "en": "Autostereoscopy 3D Cases",
+    "ja": "裸眼3D事例",
+    "ko": "입체 영상(3D) 사례"
+  },
+  "footer.social": {
+    "zh": "社交媒体",
+    "zh-Hant": "社交媒體",
+    "en": "Social Media",
+    "ja": "ソーシャルメディア",
+    "ko": "소셜 미디어"
+  }
+}
