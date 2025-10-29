@@ -7,6 +7,7 @@ var autostereoscopyTween = null;
 var xrTween = null;
 
 var app = new Vue({
+	
 	el: '#app',
 	data: {
         cases: {},
@@ -163,4 +164,32 @@ var app = new Vue({
 		    }
 		}
     }
+
 });
+
+// ======================================================
+// 背景滚动与缩放效果（方案 B，按元素相对视窗位置计算）
+// ======================================================
+$(window).on("load scroll", function () {
+  var scrollTop = $(window).scrollTop();
+  var windowHeight = $(window).height();
+
+  $(".bgscroll").each(function () {
+    var $el = $(this);
+    var elementTop = $el.offset().top;
+    var elementHeight = $el.outerHeight();
+
+    // 计算当前元素出现在视口中的比例（0~1）
+    var progress = (scrollTop + windowHeight - elementTop) / (windowHeight + elementHeight);
+    progress = Math.min(Math.max(progress, 0), 1);
+
+    // 背景垂直偏移：数值越大移动越明显
+    var yOffset = (progress - 0.5) * 300; // 200 可以调大或调小
+    $el.css("background-position", "center " + yOffset + "px");
+
+    // 背景轻微缩放（可选），100是初始大小
+    var scale = 100 + progress * 20;
+    $el.css("background-size", scale + "% auto");
+  });
+});
+
