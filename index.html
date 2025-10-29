@@ -88,8 +88,7 @@
 	<div id="app" class="container-fluid" v-bind:class="{show: isActive}">
 		<header>
             <div class="brand">
-                <!--<img class="logo" src="./images/logo.gif?v=2"/>-->
-				<img id="logoSeq" class="logo" src="./images/logo_seq/龙气国际logo-00.png" alt="LoongBreath Logo">
+                <img id="logoSeq" class="logo" src="./images/logo_seq/龙气国际logo-01.png" alt="LoongBreath Logo">
 
                 <a href="#" data-i18n="title">Loong Breath International Ltd.</a>
 
@@ -397,23 +396,25 @@
     <script src="lib/TweenMax.min.js"></script>
 	<script src="js/main.js?v=4"></script>
 	<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const totalFrames = 60;          // 你的帧数
-    const frameRate = 24;            // 每秒24帧，可改30等
-    const logoImg = document.getElementById("logoSeq");
-    let frame = 0;
+	document.addEventListener("DOMContentLoaded", function () {
+		const totalFrames = 30;          // 总帧数
+		const frameRate = 12;            // 帧率
+		const logoImg = document.getElementById("logoSeq");
+		let frame = 1;
 
-    if (!logoImg) return;
+		if (!logoImg) return;
 
-    function nextFrame() {
-        const fileName = `./images/logo_seq/龙气国际logo-${String(frame).padStart(2, '0')}.png`;
-        logoImg.src = fileName;
-        frame = (frame + 1) % totalFrames;
-    }
+		function nextFrame() {
+			const fileName = `./images/logo_seq/龙气国际logo-${String(frame).padStart(2, '0')}.png`;
+			logoImg.src = fileName;
 
-    setInterval(nextFrame, 1000 / frameRate);
-});
-</script>
+			frame++;
+			if (frame > totalFrames) frame = 1;   // ✅ 循环从1到30，不生成“00帧”
+		}
+
+		setInterval(nextFrame, 1000 / frameRate);
+	});
+	</script>
 
 </body>
 </html>
