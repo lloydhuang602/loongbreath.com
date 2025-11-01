@@ -187,4 +187,10 @@
     <changefreq>monthly</changefreq>
   </url>
 
+<url>
+  <loc>https://www.loongbreath.com/robots.txt</loc>
+  <priority>0.5</priority>
+  <changefreq>yearly</changefreq>
+</url>
+
 </urlset>
